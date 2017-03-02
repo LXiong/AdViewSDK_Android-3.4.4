@@ -82,7 +82,8 @@ To integrate Wiyun SDK, you need to put the files of wiyun_res given in the AdVi
 1. Clone or download AdViewSDK_Android-3.4.1 package here.In the AdViewSDK_Android-3.4.1 folder contains libs folder ,it contains the SDK for all ad platforms. (Libinfo.pdf has the ad platform instructions corresponding to each jar.)
 2. Please copy and paste **AdViewSDK_Android.jar, android-support-v4.jar and google-play-services.jar** into your application lib folder.you'll need to integrate the Google Play Services SDK into your app.This is mandatory; without Google Play Services, the SDK cannot function.
 
-3. In order to add **new ad network** please copy the .jar file of that particular ad platform provided by AdView to your lib folder and follow the same for all other ad platforms you would like to integrate. In case of **InMobi** add the **InMobi.jar** and **Picaso.jar** files.Please refer for adding custom ad Network this procedure [Adding custom ad network] (https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
+3. In order to add **new ad network** please copy the .jar file of that particular ad platform provided by AdView to your lib folder and follow the same for all other ad platforms you would like to integrate. In case of **InMobi** add the **InMobi.jar** and **Picaso.jar** files.Please refer for adding custom ad Network this procedure [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
+
 ![add SDK](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/IV.png)						  
 **Note :**
 
@@ -457,7 +458,7 @@ After you implement this listener you will get the following methods.
 
 ```
 
-**8.3 Custom countdown notification style on the top of opening screen**
+**8.3 Custom notification on top of opening screen with countdown options** 
 #Action needed 
 
 ```
@@ -521,10 +522,14 @@ please delete the this code (setRunMode(InitConfiguration.RunMode.TEST))
 
 	//Initialized native ads should custom ad layout in advance, and apply native ad ID at app background
 	AdViewNativeManager.getInstance(this).requestAd(this,SDK_KEY, 2,this); 
+	
+	
+	/**
+         * Please add this code in the onAdReceived call back.
+	 * For creating this call back method you can refer 9.2 
+         */
 
-	//set native callback interface
-	@Override
-	public void onReceivedAd(String key,List arg0) {
+	 
 	for (int i = 0; i < arg0.size(); i++) { 
 		Data data = newData();
 		NativeAdInfo nativeAdInfo = (NativeAdInfo) arg0.get(i);
@@ -536,25 +541,9 @@ please delete the this code (setRunMode(InitConfiguration.RunMode.TEST))
 		data.isAd = true;
 		Log.i("native information ", "data.descript: " + data.descript + "\ndata.icon: " + data.icon + "\ndata.title:" + 
 		data.title); 
-		list.add(3, data);
+		list.add(data);
 		((NativeAdInfo) arg0.get(i)).onDisplay(newView( AdNativeActivity.this));
-		} 
-	}
-
-	/**
-	 * This function is called when the ad requests failed.
-	 */
-	@Override
-	public void onFailedReceivedAd(String arg0) {
-	}
-	/**
-	 * This function is called when download ads, to back to
-	   the status of current downloading contents.
-	 */
-	@Override
-	public void onAdStatusChanged (int arg0) {
-	}
-	});
+		}
 
 ```
 
