@@ -51,7 +51,7 @@
 
 1. In This Github repository we have provided you with Adview SDK which gives you the freedom to choose your favourite ad network. in order to add custom ad netwroks please refer to this [Adding custom ad network] (https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
 2. If you are fresher, you don’t know much about ad platform, which ad platform to choose or which ad platform revenue is stable, we suggest you to use bidding first.
-3. Bidding and remnant ads need to complement market information at background, if the status is "Under review" you will be receiving test ads. and you will get formal ads only after "pass reviewed" by the AdView team. 
+3. Bidding and remnant ads need to complement market information at background, if the status is "pending review" you will be receiving test ads. and you will get formal ads only after "pass reviewed" by the AdView team. 
 4. Ads will be shown of only those ad platforms for which the **switch** is on against them.						
 5. Only the "capacity" of those ad platforms for which the switch is on will be valid, the ad newtork with higher proportion will get prior request, for all ad platforms with status as ON, the cumulative should be 100%. Other wise the your priority can't be saved.  
 6. For Banner ad, full screen/interstitial, opening screen ,etc, there’s a save button at the bottom of the page. You should click the save button every time you modify a ad format, otherwise the modification is invalid . 
@@ -88,6 +88,7 @@ To integrate Wiyun SDK, you need to put the files of wiyun_res given in the AdVi
 **Note :**
 
 1. To integrate Umeng SDK, you need to put the files of umeng_res given in the AdViewSDK_Android-3.4.1 to your application resource folder, and add corresponding permissions in the Andoid manifest file.
+
 2.To integrate Wiyun SDK, you need to put the files of wiyun_res given in the AdViewSDK_Android-3.4.1 to your application resource folder, and add corresponding permissions in the Andoid manifest file.
 
 
@@ -459,7 +460,6 @@ After you implement this listener you will get the following methods.
 ```
 
 **8.3 Custom notification on top of opening screen with countdown options** 
-#Action needed 
 
 ```
 	// Skip button will appears on the top after settings
@@ -548,6 +548,7 @@ please delete the this code (setRunMode(InitConfiguration.RunMode.TEST))
 ```
 
 **9.2 Ad Native Event Handling**
+
 To receive events from ad, **you should implement an event listener interface AdViewNativeListener**.
 After you implement this listener you will get the following methods.  
 
@@ -690,7 +691,7 @@ AdView has integrated various ad netwroks (InMobi, AdMob, etc..,) where you are 
 
 
 1. In your publisher dashboard http://adview.com/user/appreport click on the "App Management" tab --> click "Configure" against your app name which you want to add custom ad networks, then click on "Add Platform" button (out of China or within China depending on your region ) --> you will be redirected to the popup as shown below where you can choose ad netwrok of your choice.
-![Inmobi 0](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/inmobi%20in%20Dashboard.png)
+![Inmobi 0](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/Adding%20Inmobi%20in%20DashBoard%20.png)
 
 2.In this example we will be adding InMobi as the custom Ad Netwrok, select InMobi in the popup and click on "Add" button, this will redirect you to the AdView dashboard --> here turn on the switch again InMobi give the **priority(%)** of your choice then click on "not set" in InMobi row you will get  "Configure InMobi" popup with Signup link at the bottom which will redirect you to the below login page, complete the login procedure
 ![Inmobi 22](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/inmobi%20configure%20dialg.png)
