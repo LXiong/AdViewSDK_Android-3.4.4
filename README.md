@@ -61,7 +61,7 @@ Region optimization function means mobile phone displays the regional configured
 
 ##Ⅱ.About AdViewSDK_Android-3.4.1
 
-1. Clone or download AdViewSDK_Android-3.4.1 package to go ahead with the integration process. This package contains all files needed for smooth integration and some of the important fils include AdViewDemo,libs,umeng_res and wiyun_res.
+1. Clone or download AdViewSDK_Android-3.4.1 package to go ahead with the integration process. This package contains all files needed for smooth integration and some of the important fils include AdViewDemo and libs.
 
 **AdViewDemo**
 This folder contains Adview demo project which includes all types of ad format (banner,interstitial,video,native,open screen) sample code with explanation.
@@ -69,12 +69,6 @@ This folder contains Adview demo project which includes all types of ad format (
 **libs**
 It contains all the .jar file SDK needed for ad platform integration. 
 (Libinfo.pdf has the ad platform instructions corresponding to each jar.)
-
-**umeng_res**
-To integrate Umeng SDK, you need to put the files of umeng_res given in the AdViewSDK_Android-3.4.1 to your application resource folder, and add corresponding permissions in the Andoid manifest file.
-
-**wiyun_res**
-To integrate Wiyun SDK, you need to put the files of wiyun_res given in the AdViewSDK_Android-3.4.1 to your application resource folder, and add corresponding permissions in the Andoid manifest file.
 
 
 ##III. Add SDK
@@ -85,11 +79,6 @@ To integrate Wiyun SDK, you need to put the files of wiyun_res given in the AdVi
 3. In order to add **new ad network** please copy the .jar file of that particular ad platform provided by AdView to your lib folder and follow the same for all other ad platforms you would like to integrate. In case of **InMobi** add the **InMobi.jar** and **Picaso.jar** files.Please refer for adding custom ad Network this procedure [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
 
 ![add SDK](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/IV.png)						  
-**Note :**
-
-1. To integrate Umeng SDK, you need to put the files of umeng_res given in the AdViewSDK_Android-3.4.1 to your application resource folder, and add corresponding permissions in the Andoid manifest file.
-
-2.To integrate Wiyun SDK, you need to put the files of wiyun_res given in the AdViewSDK_Android-3.4.1 to your application resource folder, and add corresponding permissions in the Andoid manifest file.
 
 
 ##IV. AndroidManifest.xml text configuration
@@ -170,10 +159,9 @@ Please add the below code in the AndroidMainfest file:
 	.setInstlCloseble(InstlSwitcher.CANCLOSE ) ''
 	//this code is useful to get logs while testing , before uploading the application to live please delete this code .
 	.setRunMode(RunMode.TEST)
-	// Default situation. After setting, html5 and not-html5 ads can be received,
-	while Html5Switcher.SUPPORT can only receive html5 ad .setHtml5Switcher(Html5Switcher.NONSUPPORT)
-	// default situation, set interstitial to display mode, popupwindow mode can be set outside the form clickable. 	   
+	// default situation, set interstitial to display mode, popupwindow mode can be set outside the form clickable. 
 	setInstlDisplayMode (InstlDisplayMode. DIALOG_MODE) .build();
+	
 	// respectively request banner, interstitial, native, opening screen ad configuration, keyset can be one or more key.
 	AdViewBannerManager.getInstance(this).init(initConfig,MainActivity.keySet);
 	AdViewInstlManager.getInstance(this).init(initConfig,MainActivity.keySet);
@@ -204,8 +192,6 @@ Add the following code to your activity:
 	 InitConfiguration initConfiguration = new InitConfiguration.Builder(this)
 		   .setUpdateMode(InitConfiguration.UpdateMode.EVERYTIME)
 		   .setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-//		   .setInstlControlMode(InitConfiguration.InstlControlMode.USERCONTROL)
-//		   .setSupportHtml(InitConfiguration.Html5Switcher.SUPPORT)
 		   .setRunMode(InitConfiguration.RunMode.TEST)
 		   .build(); 
 	
@@ -287,8 +273,6 @@ Add the following code to your activity:
 	 InitConfiguration initConfiguration = new InitConfiguration.Builder(this)
 			.setUpdateMode(InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-//			.setInstlControlMode(InitConfiguration.InstlControlMode.USERCONTROL)
-//			.setSupportHtml(InitConfiguration.Html5Switcher.SUPPORT)
 			.setRunMode(InitConfiguration.RunMode.TEST)
 			.build(); 
 ```
@@ -388,8 +372,6 @@ Add the following code to your activity:
 	InitConfiguration initConfiguration = new InitConfiguration.Builder(this)                
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-//			.setInstlControlMode(InitConfiguration.InstlControlMode.USERCONTROL)
-//			.setSupportHtml(InitConfiguration.Html5Switcher.SUPPORT)
 			.setRunMode(InitConfiguration.RunMode.TEST)
 			.build();
 ```		
@@ -505,8 +487,6 @@ Add the following code to your activity:
 	InitConfiguration initConfiguration = new InitConfiguration.Builder(this)                
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-//			.setInstlControlMode(InitConfiguration.InstlControlMode.USERCONTROL)
-//			.setSupportHtml(InitConfiguration.Html5Switcher.SUPPORT)
 			.setRunMode(InitConfiguration.RunMode.TEST)
 			.build();
 ```			
@@ -585,8 +565,6 @@ Add the following code in activity,
 	InitConfiguration initConfiguration = new InitConfiguration.Builder(this)                
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-//			.setInstlControlMode(InitConfiguration.InstlControlMode.USERCONTROL)
-//			.setSupportHtml(InitConfiguration.Html5Switcher.SUPPORT)
 			.setRunMode(InitConfiguration.RunMode.TEST)
 			.build();
 
