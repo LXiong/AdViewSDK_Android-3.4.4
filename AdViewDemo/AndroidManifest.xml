@@ -16,35 +16,49 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
+
+
+    <!-- permission 安沃、InMobi、力美、帷千与多盟所需的权限 need -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- permission 安沃、力美 need -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- permission InMobi、易传媒所需的权限 need-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- permission InMobi、力美所需的权限 need-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <!-- Required Permission For smaato  -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+    <!-- Ader、smaato可选权限 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+
+
     <!-- Adsmar移动必须 -->
     <!-- Adsmar -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+
 
     <!-- 磨盘必须 -->
     <!-- Disc must be -->
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
-    <!-- 安沃、InMobi、力美、帷千与多盟所需的权限 -->
-    <uses-permission android:name="android.permission.VIBRATE" />
 
-    <!-- 安沃、力美所需的权限 -->
-    <uses-permission android:name="android.permission.CAMERA" />
-
-    <!-- InMobi、易传媒所需的权限 -->
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-
-    <!-- InMobi、力美所需的权限 -->
-    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <!-- -易传媒 所需的权限 -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
 
-    <!-- Ader、smaato可选权限 -->
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
 
     <!-- Ader、智游汇(果合)权限 -->
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
@@ -59,11 +73,9 @@
     <!-- 有米 所需的权限 -->
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
 
-    <!-- 百度 所需的权限 -->
+    <!-- permission baidu need -->
     <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
-    <!-- smaato 所需的权限 -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-	<uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
 	
     <application
         android:allowTaskReparenting="false"
@@ -104,7 +116,15 @@
 
 
 
-        <!-- AdView SDK for Inmobi (需要api 13 方可编译通过) -->
+        <!-- Channel id for app markets and need for approving application in the AdView Mediation-->
+        <meta-data
+            android:name="AdView_CHANNEL"
+            android:value="GFAN" >
+        </meta-data>
+
+
+
+        <!-- AdView SDK for Inmobi  -->
         <activity
             android:name="com.inmobi.rendering.InMobiAdActivity"
             android:configChanges="keyboardHidden|orientation|keyboard|smallestScreenSize|screenSize"
@@ -525,11 +545,6 @@
             android:configChanges="orientation|keyboardHidden"
             android:theme="@android:style/Theme.Translucent" />
 
-        <!-- Channel id for app markets -->
-        <meta-data
-            android:name="AdView_CHANNEL"
-            android:value="GFAN" >
-        </meta-data>
 
         <!-- 插屏 -->
         <!-- AdView SDK for 安沃 -->

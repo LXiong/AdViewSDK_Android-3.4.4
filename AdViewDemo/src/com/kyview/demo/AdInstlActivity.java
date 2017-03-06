@@ -43,8 +43,6 @@ public class AdInstlActivity extends Activity implements OnClickListener,
 		InitConfiguration initConfiguration = new InitConfiguration.Builder(
 				this).setUpdateMode(InitConfiguration.UpdateMode.EVERYTIME)
 				.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-//                .setInstlControlMode(InitConfiguration.InstlControlMode.USERCONTROL)
-//                .setSupportHtml(InitConfiguration.Html5Switcher.SUPPORT)
 				.setRunMode(InitConfiguration.RunMode.TEST)
 				.build();
 

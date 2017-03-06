@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0115c9f4-9744-4f92-930e-173e237c9a8b" name="Default" comment="" />
+    <list default="true" id="0115c9f4-9744-4f92-930e-173e237c9a8b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AdView_Android_SDKø™∑¢’ﬂ ÷≤·.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_baidu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_banner_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_detail_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_icon_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_jump.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_jump_apk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_jump_list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_jump_url.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_loading.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_loading_seek.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_next_no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_pre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_pre_no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_progressbar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_seek.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/drawable/uyun_seek_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/layout/uyun_download_notification.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/layout/uyun_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/layout/uyun_web_progress.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/umeng_res/layout/uyun_webview.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiyun_res/layout/wy_simple_browser_activity.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiyun_res/layout/wy_universal_notification.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdViewDemo/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AdViewDemo/AndroidManifest.xml" />
+    </list>
     <ignored path="AdViewSDK_Android-3.4.1.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +50,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChangeLog.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChangeLog.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChangeLog.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="384" column="19" selection-start-line="384" selection-start-column="19" selection-end-line="384" selection-end-column="19" />
+            <state relative-caret-position="-2227">
+              <caret line="524" column="25" selection-start-line="524" selection-start-column="25" selection-end-line="524" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2070">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdInstlActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdInstlActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1282">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdVideoActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdVideoActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdNativeActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdNativeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpreadScreenActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/SpreadScreenActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdBannerActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdBannerActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1305">
+              <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AdViewDemo/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="118" column="86" selection-start-line="118" selection-start-column="77" selection-end-line="118" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -45,13 +154,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ChangeLog.txt" />
+        <option value="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdInstlActivity.java" />
+        <option value="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdBannerActivity.java" />
+        <option value="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdVideoActivity.java" />
+        <option value="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/SpreadScreenActivity.java" />
+        <option value="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdNativeActivity.java" />
+        <option value="$PROJECT_DIR$/AdViewDemo/AndroidManifest.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -78,10 +193,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -100,10 +214,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewSDK_Android-3.4.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewSDK_Android-3.4.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,8 +495,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -378,7 +507,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -422,8 +551,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ChangeLog.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="384" column="19" selection-start-line="384" selection-start-column="19" selection-end-line="384" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChangeLog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2227">
+          <caret line="524" column="25" selection-start-line="524" selection-start-column="25" selection-end-line="524" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2070">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/SpreadScreenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdVideoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdNativeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdInstlActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1282">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdBannerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1305">
+          <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdViewDemo/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="118" column="86" selection-start-line="118" selection-start-column="77" selection-end-line="118" selection-end-column="86" />
           <folding />
         </state>
       </provider>
