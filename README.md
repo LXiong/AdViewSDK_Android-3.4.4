@@ -60,7 +60,7 @@
 Region optimization function means mobile phone displays the regional configured ads when it’s with in the region, while in foreign country it display foreign configured ads to meet the different demands to the maximum extent. When the region optimization function is closed, it does not distinguish between home and abroad. 
 8. In case you wish to show the same ad format more than once (like 2 banner ads) you need to create a new project (My product page --> publish app) with same credentials to get a new SDK key and the integration process remains same, you need not create a new project if the ad formats are different
 
-##Ⅱ.About AdViewSDK_Android-3.4.1
+## Ⅱ.About AdViewSDK_Android-3.4.1
 
 1. Clone or download AdViewSDK_Android-3.4.1 package to go ahead with the integration process. This package contains all files needed for smooth integration and some of the important fils include AdViewDemo and libs.
 
@@ -72,7 +72,7 @@ It contains all the .jar file SDK needed for ad platform integration.
 (Libinfo.pdf has the ad platform instructions corresponding to each jar.)
 
 
-##III. Add SDK
+## III. Add SDK
 
 1. Clone or download AdViewSDK_Android-3.4.1 package here.In the AdViewSDK_Android-3.4.1 folder contains libs folder ,it contains the SDK for all ad platforms. (Libinfo.pdf has the ad platform instructions corresponding to each jar.)
 2. Please copy and paste **AdViewSDK_Android.jar, android-support-v4.jar and google-play-services.jar** into your application lib folder.you'll need to integrate the Google Play Services SDK into your app.This is mandatory; without Google Play Services, the SDK cannot function.
@@ -82,7 +82,7 @@ It contains all the .jar file SDK needed for ad platform integration.
 ![add SDK](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/IV.png)						  
 
 
-##IV. AndroidManifest.xml text configuration
+## IV. AndroidManifest.xml text configuration
 
 **4.1 Add permission code**
 
@@ -138,7 +138,7 @@ Please add the below code in the AndroidMainfest file:
 (You must add the above code,otherwise you application won't be able to pass the review);
 
 
-##V. Acquire ad configurations
+## V. Acquire ad configurations
 
 **Note:**
 
@@ -170,7 +170,7 @@ Please add the below code in the AndroidMainfest file:
 	AdViewSpreadManager.getInstance(this).init(initConfig,MainActivity.keySet);
 ```
 
-##VI. Create banner advertising
+## VI. Create banner advertising
 
 **6.1 Add ads through adding code**
 
@@ -259,7 +259,7 @@ After you implement this listener you will get the following methods.
 You can refer to the code of AdBannerActivity in AdViewDemo Project.
 
 
-##VII. Create interstitial advertising
+## VII. Create interstitial advertising
 
 **7.1 create interstitial**
 
@@ -362,7 +362,7 @@ You can customize the popup Intrstitial ad, please refer AdInstlActivity for the
 **Note:**
 You can refer to the code of AdInstlActivity in AdViewDemo Project.
 
-##VIII. Create opening screen ad
+## VIII. Create opening screen ad
 
 **8.1 Create opening screen ad**
 
@@ -467,7 +467,7 @@ After you implement this listener you will get the following methods.
 
 For opening advertising please make sure the exposure time is sufficient, otherwise it will affect the ad revenue. You can refer to the code of SpreadScreenActivity in AdViewDemo Project.
 
-##IX. Create native advertising 
+## IX. Create native advertising 
 
 **9.1 create native advertising**
 
@@ -556,7 +556,7 @@ After you implement this listener you will get the following methods.
 
 ```
 
-##X. Create video advertising
+## X. Create video advertising
 **10.1 create video advertising**
 
 Add the following code in activity,
@@ -632,7 +632,7 @@ After you implement this listener you will get the following methods.
 You can refer to the code of AdVideoActivity in AdView Demo Project.
 
 
-##XI. Adding Proguard-rules 
+## XI. Adding Proguard-rules 
 
 If you have a ProGuard configuration file please add the below lines of code in proguard-rules.pro file
 
@@ -661,7 +661,7 @@ For example In case of InMobi add the below lines of code to the proguard-rules.
 ```
 
 
-##XII. Adding custom ad network
+## XII. Adding custom ad network
 
 AdView has integrated various ad netwroks (InMobi, AdMob, etc..,) where you are given flexibility to add the ad netwrok of your choice and prioritize accordingly, there are various advantages of integrating more than one ad networks to monetize your app, some them imcclude
 --> Good fill rates - we suggest to include on an avrage of 3 ad netwroks for good fill rates
@@ -692,7 +692,7 @@ Please add the SDK of InMobi--> you can follow this procedure [Add SDK](https://
 
 In the same way you can configure different custom Ad Networks to your app (different Ad networks might demand different ID's to be configured ) 
 
-##XII. Add custom ad platform
+## XII. Add custom ad platform
 
 Sometimes developers would like to add a platform which is not aggregated, Adview provide ways to meet this demand.
 
@@ -758,7 +758,7 @@ There’s a “Custom ad platform” in add ad platform . Developer needs to fil
 ```
 **You can refer the code in AdViewDemo project --> BannerActivity for implementation of Amazon ad; ** 
 
-##XIII. Contact us 
+## XIII. Contact us 
 
 Users can login Adview, there are service E-mail, service contact number and enterprise QQ customer service at the bottom of the homepage 
 
