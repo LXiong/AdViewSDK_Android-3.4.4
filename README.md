@@ -32,7 +32,7 @@
 
 
 
-##I. Register and configure SDK-KEY
+## I. Register and configure SDK-KEY
 1. Visit AdView website http://www.adview.com and complete the registration process.
 2. After Login you will land on "My Products" page by default, select "Publish App”
 3. Select “Android” follow the prompts to complete the relevant information About the application and click on "Next" button at the end where you will be redirected to “APP management” page
