@@ -1,6 +1,6 @@
-#Dev Guide Book @Adview
+# Dev Guide Book @Adview
 
-##Contents
+## Contents
 
 [I. Register and configure SDK-KEY](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#i-register-and-configure-sdk-key)
 
