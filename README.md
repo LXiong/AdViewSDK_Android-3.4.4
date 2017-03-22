@@ -122,8 +122,7 @@ The given code should be added to in AndroidManifest file for AdView, as some pl
 	<activity android:name="com.kuaiyou.video.vast.activity.VASTAdActivity" 
 	android:hardwareAccelerated="true"
 	android:screenOrientation="landscape"/>
-	<activity android:name="com.kuaiyou.video.AdviewWebView"/>
-
+	
 ```
 
 
