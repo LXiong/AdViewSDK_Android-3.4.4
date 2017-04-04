@@ -52,7 +52,7 @@
 
 1. In This Github repository we have provided you with Adview SDK which gives you the freedom to choose your favourite ad network. in order to add custom ad netwroks please refer to this [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
 2. If you are fresher, you don’t know much about ad platform, which ad platform to choose or which ad platform revenue is stable, we suggest you to use bidding first.
-3. Bidding and remnant ads need to complement market information at background, if the status is "pending review" you will be receiving test ads. and you will get formal ads only after "pass reviewed" by the AdView team. 
+3. Bidding and remnant ads need to complement market information at background, if the status is **"Under review"** you will be receiving test ads. and you will get formal ads only after **"pass reviewed"** by the AdView team. 
 4. Ads will be shown of only those ad platforms for which the **switch** is on against them.						
 5. Only the "capacity" of those ad platforms for which the switch is on will be valid, the ad newtork with higher proportion will get prior request, for all ad platforms with status as ON, the cumulative should be 100%. Other wise the your priority can't be saved.  
 6. For Banner ad, full screen/interstitial, opening screen ,etc, there’s a save button at the bottom of the page. You should click the save button every time you modify a ad format, otherwise the modification is invalid . 
