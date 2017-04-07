@@ -242,9 +242,11 @@ Add the following code to your activity:
        if (null != layout)
             layout.removeView(layout.findViewWithTag(arg0));
        }
+       
+```       
 
 
-
+```
 
      //Removing all views while closing the application
      @Override
