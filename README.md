@@ -561,8 +561,7 @@ Add the following code to your activity:
 		data.adInfo = (NativeAdInfo) arg0.get(i);
 		((NativeAdInfo) arg0.get(i)).getIconHeight();
 		data.isAd = true;
-		Log.i("native information ", "data.descript: " + data.descript + "\ndata.icon: " + data.icon + "\ndata.title:" + 
-		data.title); 
+		Log.i("native information ", "data.descript: " + data.descript + "\ndata.icon: " + data.icon + "\ndata.title:" + data.title); 
 		list.add(data);
 		((NativeAdInfo) arg0.get(i)).onDisplay(newView( AdNativeActivity.this));
 		}
@@ -607,7 +606,6 @@ Add the following code in activity,
 	InitConfiguration initConfiguration = new InitConfiguration.Builder(this)                
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-			.setRunMode(InitConfiguration.RunMode.TEST)
 			.build();
 
 ```
