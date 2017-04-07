@@ -240,7 +240,8 @@ Add the following code to your activity:
 
 
 ```	
-	
+
+       // onAdClose Call Back method 
        @Override
        public void onAdClose(String arg0) {
        Log.i("AdBannerActivity", "onAdClose");
@@ -328,8 +329,8 @@ Add the following code to your activity:
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
 			.build(); 
 ```
-			
-**Note:**
+	
+	
 ```
 
 	//Initialization for interstitual advertisement
@@ -420,12 +421,9 @@ Add the following code to your activity:
 	InitConfiguration initConfiguration = new InitConfiguration.Builder(this)                
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-			.setRunMode(InitConfiguration.RunMode.TEST)
 			.build();
 ```		
-**Note:**
-This code is useful to get logs while testing, before uploading the application to live 
-please delete the this code (setRunMode(InitConfiguration.RunMode.TEST))
+
 
 ```
 	//Intialization for Open Screen ad
@@ -535,13 +533,9 @@ Add the following code to your activity:
 	InitConfiguration initConfiguration = new InitConfiguration.Builder(this)                
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-			.setRunMode(InitConfiguration.RunMode.TEST)
 			.build();
 ```			
-**Note:**
 
-This code is useful to get logs while testing, before uploading the application to live 
-please delete the this code (setRunMode(InitConfiguration.RunMode.TEST))
 
 ```
 	//Intialization for Native advertisement
