@@ -154,20 +154,27 @@ Please add the below code in the AndroidMainfest file:
 	//real-time access to configuration, not required 
 	.setUpdateMode(UpdateMode.EVERYTIME)
 	// banner switcher can be closed
-	.setBannerCloseble(BannerSwitcher.CANCLOSED)
-	//interstitial switcher can be closed
-	.setInstlCloseble(InstlSwitcher.CANCLOSE ) ''
-	//this code is useful to get logs while testing , before uploading the application to live please delete this code .
-	.setRunMode(RunMode.TEST)
-	// default situation, set interstitial to display mode, popupwindow mode can be set outside the form clickable. 
-	setInstlDisplayMode (InstlDisplayMode. DIALOG_MODE) .build();
+	.setBannerCloseble(BannerSwitcher.CANCLOSED).build();
+	
+	
+	//respectively request banner,interstitial,native, opening screen ad configuration,SDK_KEY can be one key 
+	AdViewBannerManager.getInstance(this).init(MainActivity.initConfiguration,new String[]{MainActivity.SDK_KEY});
+	AdViewInstlManager.getInstance(this).init(MainActivity.initConfiguration,new String[]{MainActivity.SDK_KEY});
+	AdViewNativeManager.getInstance(this).init(MainActivity.initConfiguration,new String[]{MainActivity.SDK_KEY});
+	AdViewSpreadManager.getInstance(this).init(MainActivity.initConfiguration,new String[]{MainActivity.SDK_KEY});
+a	AdViewVideoManager.getInstance(this).init(MainActivity.initConfiguration,new String[]{MainActivity.SDK_KEY});
 	
 	// respectively request banner, interstitial, native, opening screen ad configuration, keyset can be one or more key.
 	AdViewBannerManager.getInstance(this).init(initConfig,MainActivity.keySet);
 	AdViewInstlManager.getInstance(this).init(initConfig,MainActivity.keySet);
 	AdViewNativeManager.getInstance(this).init(initConfig,MainActivity.keySet);
-	AdViewSpreadManager.getInstance(this).init(initConfig,MainActivity.keySet);
+	AdViewVideoManager.getInstance(this).init(initConfig,MainActivity.keySet);
+	
 ```
+
+
+**Note:**
+You can refer to the code of Main Activity in AdViewDemo Project.
 
 ## VI. Create banner advertising
 
@@ -179,7 +186,7 @@ Add a banner code to layout file,
 	<FrameLayout
 	      android:id="@+id/ad_view"
 	      android:layout_width="match_parent"
-	      android:layout_height="150dp"
+              android:layout_height="wrap_content"
 	      android:gravity="center_horizontal" />
 ```
 
@@ -192,27 +199,66 @@ Add the following code to your activity:
 	 InitConfiguration initConfiguration = new InitConfiguration.Builder(this)
 		   .setUpdateMode(InitConfiguration.UpdateMode.EVERYTIME)
 		   .setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-		   .setRunMode(InitConfiguration.RunMode.TEST)
 		   .build(); 
 	
 ```
-
-**Note:**
-
-This code is useful to get logs while testing, before uploading the application to live 
-please delete the this code (setRunMode(InitConfiguration.RunMode.TEST))
 
 ```	  
 
 	 //Initialization for Banner
 	 AdViewBannerManager.getInstance(this).init(initConfiguration,new String[]{SDK_KEY});      
 
+
 	 // request banner ads after initialization
 	 AdViewBannerManager.getInstance(this).requestAd(this,SDK_KEY, this);
 
+
+
+
 	 // Gets the currently requested banner View,upload it to your own layout.
-	 View view = AdViewBannerManager.getInstance(this).getAdViewLayout(this,SDK_KEY);
-	 layout.addView(view);
+	 FrameLayout layout = (FrameLayout) findViewById(R.id.adLayout);
+
+        if (layout == null)
+            return;
+        View view = AdViewBannerManager.getInstance(this).getAdViewLayout(this,
+                SDK_KEY);
+        if (null != view) {
+            ViewGroup parent = (ViewGroup) view.getParent();
+            if (parent != null) {
+                parent.removeAllViews();
+            }
+        }
+        AdViewBannerManager.getInstance(this).requestAd(this, SDK_KEY, this);
+        view.setTag(SDK_KEY);
+        layout.addView(view);
+        layout.invalidate();
+	
+	
+	
+	
+       @Override
+       public void onAdClose(String arg0) {
+       Log.i("AdBannerActivity", "onAdClose");
+       if (null != layout)
+            layout.removeView(layout.findViewWithTag(arg0));
+       }
+
+
+
+
+     //Removing all views while closing the application
+     @Override
+     protected void onDestroy() {
+        super.onDestroy();
+        AdViewBannerManager.getInstance(this).destroy();
+        try {
+            if (null != layout)
+                layout.removeAllViews();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+     }
 
 
 ```
@@ -273,15 +319,10 @@ Add the following code to your activity:
 	 InitConfiguration initConfiguration = new InitConfiguration.Builder(this)
 			.setUpdateMode(InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-			.setRunMode(InitConfiguration.RunMode.TEST)
 			.build(); 
 ```
 			
 **Note:**
-
-This code is useful to get logs while testing, before uploading the application to live 
-please delete the this code (setRunMode(InitConfiguration.RunMode.TEST))
-
 ```
 
 	//Initialization for interstitual advertisement
