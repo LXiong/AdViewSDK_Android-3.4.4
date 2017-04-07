@@ -162,7 +162,7 @@ Please add the below code in the AndroidMainfest file:
 	AdViewInstlManager.getInstance(this).init(MainActivity.initConfiguration,new String[]{MainActivity.SDK_KEY});
 	AdViewNativeManager.getInstance(this).init(MainActivity.initConfiguration,new String[]{MainActivity.SDK_KEY});
 	AdViewSpreadManager.getInstance(this).init(MainActivity.initConfiguration,new String[]{MainActivity.SDK_KEY});
-a	AdViewVideoManager.getInstance(this).init(MainActivity.initConfiguration,new String[]{MainActivity.SDK_KEY});
+	AdViewVideoManager.getInstance(this).init(MainActivity.initConfiguration,new String[]{MainActivity.SDK_KEY});
 	
 	// respectively request banner, interstitial, native, opening screen ad configuration, keyset can be one or more key.
 	AdViewBannerManager.getInstance(this).init(initConfig,MainActivity.keySet);
@@ -212,7 +212,10 @@ Add the following code to your activity:
 	 // request banner ads after initialization
 	 AdViewBannerManager.getInstance(this).requestAd(this,SDK_KEY, this);
 
+```
 
+
+```
 
 
 	 // Gets the currently requested banner View,upload it to your own layout.
