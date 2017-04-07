@@ -236,8 +236,10 @@ Add the following code to your activity:
         layout.addView(view);
         layout.invalidate();
 	
-	
-	
+```
+
+
+```	
 	
        @Override
        public void onAdClose(String arg0) {
