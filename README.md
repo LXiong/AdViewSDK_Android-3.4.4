@@ -416,6 +416,19 @@ You can refer to the code of AdInstlActivity in AdViewDemo Project.
 
 Add the following code to your activity:
 
+Example We are here used Relative Layout for Opening Screen ad,
+
+```
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/spreadlayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+	</RelativeLayout>
+
+```
+
 ```
 	//Basic Initialization
 	InitConfiguration initConfiguration = new InitConfiguration.Builder(this)                
