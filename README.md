@@ -209,8 +209,6 @@ Add the following code to your activity:
 	 AdViewBannerManager.getInstance(this).init(initConfiguration,new String[]{SDK_KEY});      
 
 
-	 // request banner ads after initialization
-	 AdViewBannerManager.getInstance(this).requestAd(this,SDK_KEY, this);
 
 ```
 
@@ -231,6 +229,8 @@ Add the following code to your activity:
                 parent.removeAllViews();
             }
         }
+		
+	// request banner ads after initialization
         AdViewBannerManager.getInstance(this).requestAd(this, SDK_KEY, this);
         view.setTag(SDK_KEY);
         layout.addView(view);
