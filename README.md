@@ -529,7 +529,7 @@ For opening advertising please make sure the exposure time is sufficient, otherw
 
 **9.1 create native advertising**
 
-Add a listview to layout file, e.g :
+Add a RecyclerView to layout file, e.g :
 
 ```
     <android.support.v7.widget.RecyclerView
