@@ -722,25 +722,35 @@ AdView has integrated various ad netwroks (InMobi, AdMob, etc..,) where you are 
 
 
 1. In your publisher dashboard http://adview.com/user/appreport click on the "App Management" tab --> click "Configure" against your app name which you want to add custom ad networks, then click on "Add Platform" button (out of China or within China depending on your region ) --> you will be redirected to the popup as shown below where you can choose ad netwrok of your choice.
+
+
 ![Inmobi 0](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/Adding%20Inmobi%20in%20DashBoard%20.png)
 
 2.In this example we will be adding InMobi as the custom Ad Netwrok, select InMobi in the popup and click on "Add" button, this will redirect you to the AdView dashboard --> here turn on the switch again InMobi give the **priority(%)** of your choice then click on "not set" in InMobi row you will get  "Configure InMobi" popup with Signup link at the bottom which will redirect you to the below login page, complete the login procedure
+
+
 ![Inmobi 22](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/inmobi%20configure%20dialg.png)
 
  ![Inmobi 1](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/inmobi%201.png)
 
 Please add the SDK of InMobi--> you can follow this procedure [Add SDK](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#iii-add-sdk)
+
 3. After login you will get the the account ID as shown in the below image, click on Add an App.  
+
 ![Inmobi 2](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/inmobi2.jpg)
 
 4. Please add your application ( the same application you want to add custom Ad platform in AdView) by filling in the details as asked in below imgae, in case of any proguard rules in the Ad Network integration part just copy and paste them in proguard-rules.pro file in your project.  
+
 ![Inmobi 3](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/inmobi3.jpg)
 
 5. After adding the App  to InMobi then click on the application name, where you will be redirected to the below window, please click on the option marked in the below image to get Placement ID.  
+
 ![Inmobi 4](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/inmobi4.jpg)
 
 6. Please copy the placement ID and Account ID which you need to add it in AdView dashobard as shown in the 2nd image 
+
 ![Inmobi 5](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/inmobi5.jpg)
+
 
 In the same way you can configure different custom Ad Networks to your app (different Ad networks might demand different ID's to be configured ) 
 
@@ -752,6 +762,8 @@ There’s a “Custom ad platform” in add ad platform . Developer needs to fil
  
  
 ![custom ad platform](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/custom%20platform1.png)
+
+
 
 ![custom add platform2](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/custom%20platform%202.png)
  
