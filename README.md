@@ -532,10 +532,11 @@ For opening advertising please make sure the exposure time is sufficient, otherw
 Add a listview to layout file, e.g :
 
 ```
-	<ListView
-	   android:id="@+id/list"
-	   android:layout_width="match_parent"
-	   android:layout_height="match_parent" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 
 ```
 
