@@ -581,6 +581,8 @@ Add the following code to your activity:
 		}
 
 ```
+please add DividerItemDecoration ,MyItemClickListener files for Native ad. you can get it from AdView Demo Project .
+
 
 **9.2 Ad Native Event Handling**
 
