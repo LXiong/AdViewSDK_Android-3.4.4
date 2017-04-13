@@ -39,7 +39,7 @@
 4. Under "App managemnet" page Click "Next" button at the bottom --> you will get the sole SDK key --> click "Finish" button at the bottom centre of the page and you will be redirected to the below page 
 ![Bidding](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/III.1.png)
 
-5. Now click on "configure" against your appplication, then you will be redirected to “APP management” page → under the Ad format you want to configure (Banner,interstitial,video,open screen and native) open the switch against Auction ads(AdView Ads) and in case you want to add any custom ad networks (like InMobi, AdMob etc..,) click “Add ad platform”  and please refer to this link [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network) for further steps, the cumulative percentage muste be 100%, Generally recommended number of platforms is 1-3.   
+5. Now click on "configure" against your application, then you will be redirected to **“APP management”** page → under the Ad format you want to configure (Banner,interstitial,video,open screen and native) open the switch against Auction ads(AdView Ads) and in case you want to add any custom ad networks (like InMobi, AdMob etc..,) click “Add ad platform”  and please refer to this link [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network) for further steps, the cumulative percentage muste be 100%, Generally recommended number of platforms is 1-3.   
 
 ![Home page](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/I.png)
 
