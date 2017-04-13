@@ -43,6 +43,13 @@
 
 ![Home page](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/auction%20ads.png)
 
+6.If you need **video ad or native ad**,Please configure video ad in AdView Dash board .Please click **under review or setting** label ,you will get dialog box.In the dialog box For Auction ads ,you click save button in dialog box .Then click **save**   button in bottom of the page .For other platforms ,please configure those ids .
+![video ad1](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/videos1.png)
+
+![video ad2](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/videos2.png)
+
+
+
 6. (Optional) if you wish to show prompt when you click on the ad - Under app management --> select "Edit" against your app, Switch on "Twice confirmation" button under "Advertising text settings".	
 
 ![bidding-2](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/III.2.png)
