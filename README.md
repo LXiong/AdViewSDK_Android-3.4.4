@@ -823,7 +823,7 @@ There’s a “Custom ad platform” in add ad platform . Developer needs to fil
 	}
 
 ```
-**You can refer the code in AdViewDemo project --> BannerActivity for implementation of Amazon ad; ** 
+**You can refer the code in AdViewDemo project --> BannerActivity for implementation of Amazon ad;** 
 
 ## XIII. Contact us 
 
