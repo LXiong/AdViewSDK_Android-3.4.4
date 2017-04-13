@@ -37,20 +37,34 @@
 2. After Login you will land on "My Products" page by default, select "Publish App”
 3. Select “Android” follow the prompts to complete the relevant information About the application and click on "Next" button at the end where you will be redirected to “APP management” page
 4. Under "App managemnet" page Click "Next" button at the bottom --> you will get the sole SDK key --> click "Finish" button at the bottom centre of the page and you will be redirected to the below page 
+
+
 ![Bidding](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/III.1.png)
 
 5. Now click on "configure" against your application, then you will be redirected to **“APP management”** page → under the Ad format you want to configure (Banner,interstitial,video,open screen and native) open the switch against Auction ads(AdView Ads) and in case you want to add any custom ad networks (like InMobi, AdMob etc..,) click “Add ad platform”  and please refer to this link [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network) for further steps, the cumulative percentage muste be 100%,then click save button. Generally recommended number of platforms is 1-3.   
 
 ![Home page](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/auction%20ads.png)
 
+
+
 6.If you need **video ad or native ad**,Please configure video ad in AdView Dash board .Please click **under review or setting** label ,you will get dialog box.In the dialog box For Auction ads ,you click save button in dialog box .Then click **save**   button in bottom of the page .For other platforms ,please configure those ids .
+
+
 ![video ad1](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/videos1.png)
+
+
 
 ![video ad2](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/videos2.png)
 
 
 
-6. (Optional) if you wish to show prompt when you click on the ad - Under app management --> select "Edit" against your app, Switch on "Twice confirmation" button under "Advertising text settings".	
+
+
+
+
+7. (Optional) if you wish to show prompt when you click on the ad - Under app management --> select "Edit" against your app, Switch on "Twice confirmation" button under "Advertising text settings".	
+
+
 
 ![bidding-2](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/III.2.png)
 
