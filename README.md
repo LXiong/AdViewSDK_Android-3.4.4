@@ -34,9 +34,9 @@
 
 ## I. Register and configure SDK-KEY
 1. Visit AdView website [adview.com](http://www.adview.com) and complete the registration process.
-2. After Login you will land on "My Products" page by default, select "Publish App”
-3. Select “Android” follow the prompts to complete the relevant information About the application and click on "Next" button at the end where you will be redirected to “APP management” page
-4. Under "App managemnet" page Click "Next" button at the bottom --> you will get the sole SDK key --> click "Finish" button at the bottom centre of the page and you will be redirected to the below page 
+2. After Login you will land on "My Products" page by default, select **"Publish App”** .
+3. Select **“Android”** follow the prompts to complete the relevant information About the application and click on **"Next"** button at the end where you will be redirected to **“APP management”** page
+4. Under "App managemnet" page Click **"Next"** button at the bottom --> you will get the sole SDK key --> click **"Finish"** button at the bottom centre of the page and you will be redirected to the below page 
 
 
 ![Bidding](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/III.1.png)
@@ -76,17 +76,20 @@
 3. Bidding and remnant ads need to complement market information at background, if the status is **"Under review"** you will be receiving test ads. and you will get formal ads only after **"pass reviewed"** by the AdView team. 
 4. Ads will be shown of only those ad platforms for which the **switch** is on against them.						
 5. Only the "capacity" of those ad platforms for which the switch is on will be valid, the ad newtork with higher proportion will get prior request, for all ad platforms with status as ON, the cumulative should be 100%. Other wise the your priority can't be saved.  
+
 6. For Banner ad, full screen/interstitial, opening screen ,etc, there’s a save button at the bottom of the page. You should click the save button every time you modify a ad format, otherwise the modification is invalid . 
+
 7. **Region optimization:** 
 Region optimization function means mobile phone displays the regional configured ads when it’s with in the region, while in foreign country it display foreign configured ads to meet the different demands to the maximum extent. When the region optimization function is closed, it does not distinguish between home and abroad. 
+
 8. In case you wish to show the same ad format more than once (like 2 banner ads) you need to create a new project (My product page --> publish app) with same credentials to get a new SDK key and the integration process remains same, you need not create a new project if the ad formats are different
 
 ## Ⅱ.About AdViewSDK_Android-3.4.1
 
-1. Clone or download AdViewSDK_Android-3.4.1 package to go ahead with the integration process. This package contains all files needed for smooth integration and some of the important fils include AdViewDemo and libs.
+1. Clone or download AdViewSDK_Android-3.4.1 package to go ahead with the integration process. This package contains all files needed for smooth integration and some of the important fils include **AdViewTestDemoEN** and **libs**.
 
-**AdViewDemo**
-This folder contains Adview demo project which includes all types of ad format (banner,interstitial,video,native,open screen) sample code with explanation.
+**AdViewTestDemoEN**
+This folder contains Adview demo project which includes all types of ad format (banner,interstitial,video,native,open screen) sample code with explanation.you can run the this application. you can see **test Ads** .
 
 **libs**
 It contains all the .jar file SDK needed for ad platform integration. 
@@ -107,7 +110,7 @@ It contains all the .jar file SDK needed for ad platform integration.
 
 **4.1 Add permission code**
 
-Required permissions should be added (please refer to AndroidManifest file in the AdViewDemo project).
+Required permissions should be added (please refer to AndroidManifest file in the **AdViewTestDemoEN** project).
 
 ```
 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -131,7 +134,7 @@ Required permissions should be added (please refer to AndroidManifest file in th
 
 **4.2 Add Activity declaration**
 
-The given code should be added to in AndroidManifest file for AdView, as some platforms need to declare activity to work normal, please refer to AndroidManifest file in AdViewDemo project.  
+The given code should be added to in AndroidManifest file for AdView, as some platforms need to declare activity to work normal, please refer to **AndroidManifest file** in **AdViewTestDemoEN** project.  
 
 **Configurations that adview bidding ads should add:**
 
@@ -150,6 +153,7 @@ The given code should be added to in AndroidManifest file for AdView, as some pl
 **4.3 Appointed app channel**
 
 Please add the below code in the AndroidMainfest file:
+
 ```
 	<meta-data android:name="AdView_CHANNEL" android:value=“GFAN">
 	</meta-data>
@@ -195,7 +199,7 @@ Please add the below code in the AndroidMainfest file:
 
 
 **Note:**
-You can refer to the code of Main Activity in AdViewDemo Project.
+You can refer to the code of Main Activity in **AdViewTestDemoEN** Project.
 
 ## VI. Create banner advertising
 
@@ -327,7 +331,7 @@ After you implement this listener you will get the following methods.
 ```
 
 **Note:**
-You can refer to the code of AdBannerActivity in AdViewDemo Project.
+You can refer to the code of **AdBannerActivity** in **AdViewTestDemoEN** Project.
 
 
 ## VII. Create interstitial advertising
@@ -405,7 +409,7 @@ After you implement this listener you will get the following methods.
 
 **7.3 Create custom style interstitial**
 
-You can customize the popup Intrstitial ad, please refer AdInstlActivity for the entire code .Please refer **AdInstlActivity** in AdViewDemo Project.
+You can customize the popup Intrstitial ad, please refer AdInstlActivity for the entire code .Please refer **AdInstlActivity** in **AdViewTestDemoEN** Project.
 ```
 	// You need to set the user-managed mode when initialization, and you must manually call the display
 	//after the setting   
@@ -428,7 +432,7 @@ You can customize the popup Intrstitial ad, please refer AdInstlActivity for the
 ```
 
 **Note:**
-You can refer to the code of **AdInstlActivity** in AdViewDemo Project.
+Please refer to the code of popup Interstitial ad in **AdInstlActivity** in **AdViewTestDemoEN** Project.
 
 ## VIII. Create opening screen ad
 
@@ -514,8 +518,11 @@ After you implement this listener you will get the following methods.
 
     }
 
-
 ```
+
+**Note:**
+Please refer **SpreadScreenActivity** in **AdViewTestDemoEN** Project.
+
 
 **8.3 Custom notification on top of opening screen with countdown options** 
 
@@ -539,7 +546,7 @@ After you implement this listener you will get the following methods.
 
 **Note:**
 
-For opening advertising please make sure the exposure time is sufficient, otherwise it will affect the ad revenue. You can refer to the code of SpreadScreenActivity in AdViewDemo Project.
+For opening advertising please make sure the exposure time is sufficient, otherwise it will affect the ad revenue. You can refer to the code of SpreadScreenActivity in **AdViewTestDemoEN** Project.
 
 ## IX. Create native advertising 
 
@@ -610,7 +617,10 @@ Add the following code to your activity:
 	}
 
 ```
-please add DividerItemDecoration ,MyItemClickListener files for Native ad. you can get it from AdView Demo Project .
+**Note:**
+You can refer to the code of **AdNativeActivity** in **AdViewTestDemoEN** Project.
+please add DividerItemDecoration ,MyItemClickListener files for Native ad. 
+you can get it from **AdViewTestDemoEN** Project .
 
 
 **9.2 Ad Native Event Handling**
@@ -713,7 +723,7 @@ After you implement this listener you will get the following methods.
 
 **Note:**
 
-You can refer to the code of AdVideoActivity in AdView Demo Project.
+You can refer to the code of **AdVideoActivity** in **AdViewTestDemoEN** Project.
 
 
 ## XI. Adding Proguard-rules 
@@ -852,7 +862,7 @@ There’s a “Custom ad platform” in add ad platform . Developer needs to fil
 	}
 
 ```
-**You can refer the code in AdViewDemo project --> BannerActivity for implementation of Amazon ad;** 
+**You can refer the code in AdViewTestDemoEN project --> BannerActivity for implementation of Amazon ad;** 
 
 ## XIII. Contact us 
 
