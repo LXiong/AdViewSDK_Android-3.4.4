@@ -86,7 +86,7 @@ Region optimization function means mobile phone displays the regional configured
 
 ## Ⅱ.About AdViewSDK_Android-3.4.1
 
-1. Clone or download AdViewSDK_Android-3.4.1 package to go ahead with the integration process. This package contains all files needed for smooth integration and some of the important fils include AdViewDemo and libs.
+1. Clone or download AdViewSDK_Android-3.4.1 package to go ahead with the integration process. This package contains all files needed for smooth integration and some of the important fils include **AdViewTestDemoEN** and **libs**.
 
 **AdViewTestDemoEN**
 This folder contains Adview demo project which includes all types of ad format (banner,interstitial,video,native,open screen) sample code with explanation.you can run the this application. you can see **test Ads** .
@@ -110,7 +110,7 @@ It contains all the .jar file SDK needed for ad platform integration.
 
 **4.1 Add permission code**
 
-Required permissions should be added (please refer to AndroidManifest file in the AdViewDemo project).
+Required permissions should be added (please refer to AndroidManifest file in the **AdViewTestDemoEN** project).
 
 ```
 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -199,7 +199,7 @@ Please add the below code in the AndroidMainfest file:
 
 
 **Note:**
-You can refer to the code of Main Activity in AdViewDemo Project.
+You can refer to the code of Main Activity in **AdViewTestDemoEN** Project.
 
 ## VI. Create banner advertising
 
@@ -546,7 +546,7 @@ Please refer **SpreadScreenActivity** in **AdViewTestDemoEN** Project.
 
 **Note:**
 
-For opening advertising please make sure the exposure time is sufficient, otherwise it will affect the ad revenue. You can refer to the code of SpreadScreenActivity in AdViewDemo Project.
+For opening advertising please make sure the exposure time is sufficient, otherwise it will affect the ad revenue. You can refer to the code of SpreadScreenActivity in **AdViewTestDemoEN** Project.
 
 ## IX. Create native advertising 
 
@@ -862,7 +862,7 @@ There’s a “Custom ad platform” in add ad platform . Developer needs to fil
 	}
 
 ```
-**You can refer the code in AdViewDemo project --> BannerActivity for implementation of Amazon ad;** 
+**You can refer the code in AdViewTestDemoEN project --> BannerActivity for implementation of Amazon ad;** 
 
 ## XIII. Contact us 
 
