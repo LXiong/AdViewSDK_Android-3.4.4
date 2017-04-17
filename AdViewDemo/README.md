@@ -1,1 +1,0 @@
-# AdViewSDK-Android
