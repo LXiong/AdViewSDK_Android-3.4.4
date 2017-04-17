@@ -222,9 +222,6 @@ Add the following code to your activity:
 		   .setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
 		   .build(); 
 	
-```
-
-```	  
 
 	 //Initialization for Banner
 	 AdViewBannerManager.getInstance(this).init(initConfiguration,new String[]{SDK_KEY});      
@@ -349,14 +346,16 @@ Add the following code to your activity:
 			.setUpdateMode(InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
 			.build(); 
-```
+			
 	
-	
-```
-
 	//Initialization for interstitual advertisement
 	AdViewInstlManager.getInstance(this).init(initConfiguration,new String[]{SDK_KEY});
 
+		
+```
+	
+	
+```
 
 	// interstitial ad request after initialization, ad request and display, used alone
 	AdViewInstlManager.getInstance(this).requestAd(this,SDK_KEY);
@@ -456,18 +455,15 @@ Example We are here used Relative Layout for Opening Screen ad,
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
 			.build();
+			
+	//Intialization for Open Screen ad
+	AdViewSpreadManager.getInstance(this).init(initConfiguration, new String[]{SDK_KEY});
 ```		
 
 
 ```
-	//Intialization for Open Screen ad
-	AdViewSpreadManager.getInstance(this).init(initConfiguration, new String[]{SDK_KEY});
-
 
 	// Set the logo at the bottom of opening screen (not required), you can also upload local images or images 
-	
-	
-	.
 	AdViewSpreadManager.getInstance(this).setSpreadLogo(R.drawable.spread_logo);
 
 	// Set background color of opening screen( not required)
@@ -536,8 +532,7 @@ After you implement this listener you will get the following methods.
 	// Skip button will be shown on the top after settings,but it will appear only after specified times.
 	public final static int NOTIFY_COUNTER_TEXT = 2;
 
-	// Will call this after settings:onAdNotifyCustomCallback(String key,ViewGroup view,intruleTime,int delayTime) interface, you 
-	//can custom notification styles
+	// Will call this after settings:onAdNotifyCustomCallback(String key,ViewGroup view,intruleTime,int delayTime)                 //interface, you can custom notification styles
 	public final static int NOTIFY_COUNTER_CUSTOM = 3;
 
 ```
@@ -569,12 +564,15 @@ Add the following code to your activity:
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
 			.build();
+			
+	//Intialization for Native advertisement
+	AdViewNativeManager.getInstance(this).init(initConfiguration,new String[]{SDK_KEY});
+	
 ```			
 
 
 ```
-	//Intialization for Native advertisement
-	AdViewNativeManager.getInstance(this).init(initConfiguration,new String[]{SDK_KEY});
+	
 
 
 	//Initialized native ads should custom ad layout in advance, and apply native ad ID at app background
@@ -587,19 +585,29 @@ Add the following code to your activity:
          */
 
 	 
-	for (int i = 0; i < arg0.size(); i++) { 
-		Data data = newData();
-		NativeAdInfo nativeAdInfo = (NativeAdInfo) arg0.get(i);
-		data.descript = nativeAdInfo.getDescription(); 
-		data.icon = nativeAdInfo.getIconUrl();
-		data.title = ((NativeAdInfo) arg0.get(i)).getTitle();
-		data.adInfo = (NativeAdInfo) arg0.get(i);
-		((NativeAdInfo) arg0.get(i)).getIconHeight();
-		data.isAd = true;
-		Log.i("native information ", "data.descript: " + data.descript + "\ndata.icon: " + data.icon + "\ndata.title:" + data.title); 
-		list.add(data);
-		((NativeAdInfo) arg0.get(i)).onDisplay(newView( AdNativeActivity.this));
+	// Ad successfully Received
+	@Override
+	public void onAdRecieved(String arg1, ArrayList arg0) {
+		for (int i = 0; i < arg0.size(); i++) {
+			Data data = new Data();
+			NativeAdInfo nativeAdInfo = (NativeAdInfo) arg0.get(i);
+			data.title = ((NativeAdInfo) arg0.get(i)).getTitle();
+			data.descript = nativeAdInfo.getDescription();
+			data.icon = nativeAdInfo.getIconUrl();
+			data.image= nativeAdInfo.getImageUrl();
+			data.adInfo = (NativeAdInfo) arg0.get(i);
+			((NativeAdInfo) arg0.get(i)).getIconHeight();
+			data.setAd(true);
+			data.setType(STREAM_AD);
+			Log.i("Native info：", "data.title:" + data.title + "\ndata.descript: " + data.descript + "\ndata.icon: "
+					+ data.icon + "\ndata.image: " + data.image );
+			list.add(3, data);
+			((NativeAdInfo) arg0.get(i)).onDisplay(new View(
+					AdNativeActivity.this));
 		}
+		adAdapter.notifyDataSetChanged();
+
+	}
 
 ```
 please add DividerItemDecoration ,MyItemClickListener files for Native ad. you can get it from AdView Demo Project .
