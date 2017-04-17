@@ -405,7 +405,7 @@ After you implement this listener you will get the following methods.
 
 **7.3 Create custom style interstitial**
 
-You can customize the popup Intrstitial ad, please refer AdInstlActivity for the entire code 
+You can customize the popup Intrstitial ad, please refer AdInstlActivity for the entire code .Please refer **AdInstlActivity** in AdViewDemo Project.
 ```
 	// You need to set the user-managed mode when initialization, and you must manually call the display
 	//after the setting   
@@ -428,7 +428,7 @@ You can customize the popup Intrstitial ad, please refer AdInstlActivity for the
 ```
 
 **Note:**
-You can refer to the code of AdInstlActivity in AdViewDemo Project.
+You can refer to the code of **AdInstlActivity** in AdViewDemo Project.
 
 ## VIII. Create opening screen ad
 
