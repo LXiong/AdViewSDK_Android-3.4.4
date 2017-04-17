@@ -2,184 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0115c9f4-9744-4f92-930e-173e237c9a8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/libs/AdViewSDK_Android.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/libs/android-support-v7-recyclerview.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/libs/google-play-services.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/drawable-hdpi/ic_lancher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/drawable-mdpi/ic_lancher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/drawable-xhdpi/ic_lancher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/drawable-xxhdpi/ic_lancher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/drawable/close_ad_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dev Guide Book @Adview.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/java/com/kyview/testdemo/AdNativeActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/java/com/kyview/testdemo/DividerItemDecoration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/java/com/kyview/testdemo/MyItemClickListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/layout/activity_adnative.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/layout/activity_advideo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/layout/native_ad_item1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/layout/version_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/values/strings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/.idea/AdViewDemo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/assets/DC9lcl6FXSuJ9S40" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/AdViewDemo.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdBannerActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdBannerActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdBannerActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdBannerActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdBannerActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdInstlActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdInstlActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdInstlActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdInstlActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdNativeActivity$Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdNativeActivity$NativeAdAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdNativeActivity$NativeAdAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdNativeActivity$NativeAdAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdNativeActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/AdVideoActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/MainActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/MainActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/MainActivity$5$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/MainActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/classes/com/kyview/demo/SpreadScreenActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/AdViewSDK_Android-a8745a4885d571fe9e7fac1d1677c29a.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/Baidu_MobAds_SDK_Agg-0f86c7c0362a0bb12a0f2a19589261ff.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/Chance_Ad_SDK_Android-e73eaf420668f7409cfdcc5a1717ac23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/InMobi-8bb65b0ea56ce459af2f0bd6222a1d44.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/MobFox-Android-SDK-4c7ebe604a282ce03c4e8ced56264c60.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/Oupeng-Ads-SDK-9f26718d54990efc2629d139897d1540.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/YoumiSdk-d2bc0524e57a3ceb61ceb1286b48c62b.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/adbase-63f600dd463a953ffbf8c77e9581d2b5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/adgoogle-fc998b5604289a85a375c26b48cc27c1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/adsmar_sdk-96c120937e19365a7629a4f051d7bd9c.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/aduu-sdk-b5a7dc2dc827ec7aa8195003131d2c85.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/amazon-ads-8e6d9c6a0c21870aaa21ce41add4fd8d.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/android-support-v4-9dd7308557426e2bae3287bbcb108474.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/domob_android_sdk-05a10d7daeddf69d730d5d63e04f8dc7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/gdt_mob_release-9001dc2ed77cce9696a117cd077cf2fc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/google-play-services-9614ef5feece3467b03151526e80ad3b.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/immobSDK-f42b986ce5912f737f9f087444660c38.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/mobisageSDK-0ae97affbc91a979715c3cff9289fdef.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/picasso-9fd8a38f5e31fc4ae9a3a749d68512b1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/suntengMob-9a30302ebc70c99575482e79b3b1dff5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/dexedLibs/suntengvideo-33e6dcd2fd41b361eebd5b4ca8fc466f.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/jarlist.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/proguard.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/res/crunch/drawable-hdpi/ic_lancher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/res/crunch/drawable-mdpi/ic_lancher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/res/crunch/drawable-xhdpi/ic_lancher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/res/crunch/drawable-xxhdpi/ic_lancher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/resources.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/gen/com/kyview/demo/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/gen/com/kyview/demo/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/gen/com/kyview/demo/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/AdViewSDK_Android.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/Baidu_MobAds_SDK_Agg.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/Chance_Ad_SDK_Android.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/InMobi.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/MobFox-Android-SDK.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/Oupeng-Ads-SDK.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/YoumiSdk.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/adsmar_sdk.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/aduu-sdk.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/android-support-v4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/arm64-v8a/libAdwoLocker.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/arm64-v8a/libImmHapticMedia.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/arm64-v8a/libabcdefgh.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/arm64-v8a/libad.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/arm64-v8a/libadcolony.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/arm64-v8a/libjs.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi-v7a/libAdwoLocker.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi-v7a/libImmHapticMedia.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi-v7a/libabcdefgh.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi-v7a/libad.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi-v7a/libadcolony.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi-v7a/libjs.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi/libAdwoLocker.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi/libImmHapticMedia.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi/libabcdefgh.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi/libad.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi/libadcolony.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi/libjs.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/armeabi/libnmsp_speex.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/domob_android_sdk.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/immobSDK.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/mips/libabcdefgh.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/mips/libad.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/mips64/libabcdefgh.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/mips64/libad.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/mobisageSDK.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/picasso.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/x86/libabcdefgh.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/x86/libad.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/x86/libadcolony.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/x86/libjs.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/x86_64/libabcdefgh.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/x86_64/libad.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/x86_64/libadcolony.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/x86_64/libjs.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/proguard.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/res/drawable-hdpi/ic_lancher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/res/drawable-mdpi/ic_lancher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/res/drawable-xhdpi/ic_lancher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/res/drawable-xxhdpi/ic_lancher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/res/layout/activity_adnative.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/res/layout/activity_advideo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/res/layout/version_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdNativeActivity.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/amazon-ads.jar" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/libs/amazon-ads.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/gdt_mob_release.jar" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/libs/gdt_mob_release.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/suntengMob.jar" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/libs/suntengMob.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/libs/suntengvideo.jar" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/libs/suntengvideo.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/drawable/logo.jpg" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/drawable/logo.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/drawable/spread_logo.jpg" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/drawable/spread_logo.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/layout/activity_adbanner.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/layout/activity_adbanner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/layout/activity_adinstl.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/layout/activity_adinstl.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/layout/main_activity.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/layout/main_activity.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/layout/native_ad_item.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/layout/native_ad_item.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/layout/popup_instl.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/layout/popup_instl.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/layout/spread_layout.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/layout/spread_layout.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/values-v11/styles.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/values-v11/styles.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/values-v14/styles.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/values-v14/styles.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/values/color.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/values/color.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/values/dimens.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/values/dimens.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/res/values/styles.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/values/styles.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdBannerActivity.java" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/java/com/kyview/testdemo/AdBannerActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdInstlActivity.java" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/java/com/kyview/testdemo/AdInstlActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdVideoActivity.java" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/java/com/kyview/testdemo/AdVideoActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/MainActivity.java" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/java/com/kyview/testdemo/MainActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/SpreadScreenActivity.java" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/java/com/kyview/testdemo/SpreadScreenActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LibInfo.pdf" afterPath="$PROJECT_DIR$/LibInfo.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="AdViewSDK_Android-3.4.1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -198,7 +21,31 @@
     <favorites_list name="AdViewSDK_Android-3.4.1" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="AdBannerActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/java/com/kyview/testdemo/AdBannerActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="37" column="33" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="33" />
+              <folding>
+                <element signature="e#1328#1329#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -218,6 +65,7 @@
         <option value="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/SpreadScreenActivity.java" />
         <option value="$PROJECT_DIR$/AdViewDemo/src/com/kyview/demo/AdNativeActivity.java" />
         <option value="$PROJECT_DIR$/AdViewDemo/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -270,6 +118,92 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewSDK_Android-3.4.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewSDK_Android-3.4.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewTestDemoEN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewSDK_Android-3.4.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewSDK_Android-3.4.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewTestDemoEN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kyview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewSDK_Android-3.4.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewSDK_Android-3.4.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdViewTestDemoEN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -284,6 +218,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/vinith/Desktop/vinith ad sdk development/AdViewSDK_Android-3.4.1/AdViewTestDemoEN/app/src/main/res/values/strings.xml&#10;str&#9;FILE&#9;file:///Users/vinith/Desktop/vinith ad sdk development/AdViewSDK_Android-3.4.1/AdViewTestDemoEN/app/src/main/res/values/strings.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -600,7 +535,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -608,7 +543,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -705,6 +640,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3705">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/java/com/kyview/testdemo/AdBannerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdViewTestDemoEN/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>

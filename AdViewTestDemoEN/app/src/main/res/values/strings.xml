@@ -3,7 +3,7 @@
 
     <string name="hello">Hello,This is AdViewSample!</string>
     <string name="app_name">AdView Demo</string>
-    <string name="codelayout">Banner Ad</string>
+    <string name="codelayout">Show Banner Ad</string>
     <string name="codelayout2">AdPosition2</string>
     <string name="customlayout">Custom Ad platform</string>
     <string name="bannerlayout">Banner</string>
