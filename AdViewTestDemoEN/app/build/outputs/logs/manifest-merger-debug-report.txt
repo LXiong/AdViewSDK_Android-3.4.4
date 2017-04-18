@@ -1,0 +1,692 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:2:1-537:12
+	package
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:7:5-44
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/vinith/.android/build-cache/10f2bc1b5822d3273ec1a735398905849a0b8954/output/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /Users/vinith/.android/build-cache/bf0f177493e0b18539ba19eb5c84fc7f6bc45c67/output/AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		INJECTED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:7:15-41
+		INJECTED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:14:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:17:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:23:22-63
+uses-permission#android.permission.CAMERA
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:26:5-65
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:26:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:29:5-71
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:29:22-68
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:32:5-69
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:32:22-66
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:35:22-77
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:36:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:39:5-76
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:39:22-73
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:40:5-73
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:40:22-70
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:43:5-84
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:43:22-81
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:46:5-72
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:46:22-69
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:47:5-67
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:47:22-64
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:50:5-68
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:50:22-65
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:53:5-88
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:53:22-85
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:56:5-93
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:56:22-90
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:58:5-71
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:58:22-68
+application
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:60:5-535:19
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/vinith/.android/build-cache/10f2bc1b5822d3273ec1a735398905849a0b8954/output/AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support:support-v4:21.0.3] /Users/vinith/.android/build-cache/bf0f177493e0b18539ba19eb5c84fc7f6bc45c67/output/AndroidManifest.xml:16:5-19
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:63:9-45
+	android:label
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:62:9-41
+	android:icon
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:61:9-44
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:64:9-40
+activity#com.kyview.testdemo.MainActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:65:9-73:20
+	android:windowSoftInputMode
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:67:4-45
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:66:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:68:13-72:29
+action#android.intent.action.MAIN
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:69:17-69
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:69:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:71:17-77
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:71:27-74
+activity#com.kyview.testdemo.AdNativeActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:74:9-75:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:74:19-70
+activity#com.kyview.testdemo.AdVideoActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:76:9-77:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:76:19-69
+activity#com.kyview.testdemo.AdInstlActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:78:9-79:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:78:19-69
+activity#com.kyview.testdemo.AdBannerActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:81:9-82:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:81:19-70
+activity#com.kyview.testdemo.SpreadScreenActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:84:9-85:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:84:19-74
+activity#com.kuaiyou.video.vast.activity.VASTAdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:88:9-92:52
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:92:13-50
+	android:hardwareAccelerated
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:91:13-47
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:90:13-122
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:89:13-74
+activity#com.kuaiyou.video.AdviewWebView
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:93:9-67
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:93:19-65
+service#com.kyview.DownloadService
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:94:9-62
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:94:18-59
+activity#com.kyview.AdviewWebView
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:95:9-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:95:19-58
+activity#com.kyview.AdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:96:3-52
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:96:13-49
+activity#com.oupeng.ad.sdk.video.OupengPlayerActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:100:9-103:74
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:102:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:103:13-71
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:101:13-72
+activity#com.oupeng.ad.sdk.browser.OupengBrowser
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:104:9-107:74
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:106:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:107:13-71
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:105:13-67
+activity#com.oupeng.ad.sdk.interstitial.adapter.html.OupengHtmlInterstitialActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:108:9-111:74
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:110:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:111:13-71
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:109:13-102
+activity#com.oupeng.ad.sdk.interstitial.adapter.image.OupengImageInterstitialActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:112:9-115:74
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:114:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:115:13-71
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:113:13-104
+activity#com.oupeng.ad.sdk.splash.adapter.OupengImageSplashActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:116:9-119:74
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:118:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:119:13-71
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:117:13-86
+activity#com.ads.sdk.video.VideoActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:122:9-125:63
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:124:13-115
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:125:13-60
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:123:13-59
+activity#com.suntengmob.sdk.activity.InterstitialActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:127:9-129:115
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:129:19-112
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:128:19-67
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:127:19-82
+activity#com.suntengmob.sdk.activity.BrowserAdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:131:9-132:115
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:132:19-112
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:131:19-79
+activity#com.suntengmob.sdk.activity.SplashActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:134:9-136:115
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:135:19-55
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:136:19-112
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:134:19-76
+activity#cn.pro.sdk.AdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:139:9-149:20
+	android:launchMode
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:141:13-48
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:142:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:140:13-49
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:143:13-148:29
+action#android.intent.action.VIEW
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:144:17-68
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:144:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:145:17-75
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:145:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:146:17-77
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:146:27-75
+data
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:147:17-47
+	android:scheme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:147:23-45
+activity#com.jd.jdadsdk.JDAdBrowser
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:152:9-154:52
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:154:13-49
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:153:13-54
+activity#com.inmobi.rendering.InMobiAdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:157:9-161:75
+	android:hardwareAccelerated
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:160:13-47
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:159:13-102
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:161:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:158:13-65
+receiver#com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:162:9-169:20
+	android:enabled
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:164:13-35
+	android:exported
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:165:13-36
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:163:13-92
+intent-filter#com.inmobi.share.id
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:166:13-168:29
+action#com.inmobi.share.id
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:167:17-62
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:167:25-59
+service#com.inmobi.signals.activityrecognition.ActivityRecognitionManager
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:171:9-173:38
+	android:enabled
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:173:13-35
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:172:13-93
+service#com.mediav.ads.sdk.service.MvService
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:176:9-179:40
+	android:enabled
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:178:13-35
+	android:exported
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:179:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:177:13-64
+activity#com.adwalker.wall.platform.layout.AdShowActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:182:9-185:20
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:184:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:183:13-76
+activity#com.adwalker.wall.platform.layout.AdDetailActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:186:9-188:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:188:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:187:13-78
+activity#com.adwalker.wall.platform.layout.AdShowWebActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:189:9-191:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:191:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:190:13-79
+activity#cn.aduu.android.AdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:214:9-217:20
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:216:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:215:13-54
+activity#com.donson.momark.activity.AdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:220:9-226:20
+	android:launchMode
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:222:13-43
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:221:13-65
+intent-filter#android.intent.action.MAIN
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:223:13-225:29
+activity#cn.domob.android.ads.DmActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:229:9-231:64
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:231:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:230:13-59
+activity#net.youmi.android.normal.video.VideoActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:234:9-239:20
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:237:13-50
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:236:13-83
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:238:13-60
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:235:13-72
+activity#net.youmi.android.AdBrowser
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:241:9-245:20
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:243:13-83
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:244:13-60
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:242:13-55
+service#net.youmi.android.AdService
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:247:9-250:19
+	android:exported
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:249:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:248:13-55
+receiver#net.youmi.android.AdReceiver
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:252:9-259:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:252:19-62
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_INSTALL
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:253:13-258:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:254:17-77
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:254:25-75
+action#android.intent.action.PACKAGE_INSTALL
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:255:17-79
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:255:25-77
+activity#com.wqmobile.sdk.WQActionHandler
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:262:9-264:77
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:264:13-74
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:263:13-60
+activity#com.wqmobile.sdk.WQBrowser
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:265:9-269:64
+	android:hardwareAccelerated
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:268:13-47
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:267:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:269:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:266:13-54
+activity#com.kyview.screen.interstitial.adapters.WqActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:270:9-272:64
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:272:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:271:13-78
+activity#com.otomod.ad.AdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:276:9-280:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:276:19-58
+intent-filter#android.intent.category.DEFAULT
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:277:13-279:29
+activity#com.chance.ads.AdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:311:9-314:20
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:313:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:312:13-53
+service#com.chance.engine.AdService
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:316:9-323:19
+	android:process
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:319:13-51
+	android:exported
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:318:13-36
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:317:13-55
+intent-filter#com.chance.service
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:320:13-322:29
+action#com.chance.service
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:321:17-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:321:25-58
+service#com.qq.e.comm.DownloadService
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:326:9-329:19
+	android:exported
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:328:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:327:13-57
+activity#com.qq.e.ads.ADActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:331:9-335:20
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:333:13-72
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:334:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:332:13-51
+service#com.easou.ecom.mads.service.DownloadService
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:338:9-340:40
+	android:exported
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:340:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:339:13-71
+activity#com.easou.ecom.mads.AdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:342:9-345:52
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:345:13-49
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:344:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:343:13-58
+activity#com.adroi.sdk.AppActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:348:9-351:52
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:351:13-49
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:350:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:349:13-53
+activity#com.mopanspot.sdk.MopanSpotActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:354:9-356:75
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:356:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:355:13-63
+service#com.mopanspot.sdk.pluginmgr.MoPanLanchMonitorService
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:358:9-362:19
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:358:18-85
+intent-filter#com.mopan.spot.service
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:359:13-361:29
+action#com.mopan.spot.service
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:360:17-65
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:360:25-62
+activity#com.adchina.android.ads.views.AdBrowserView
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:365:9-368:64
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:367:13-72
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:368:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:366:13-71
+receiver#com.adchina.android.ads.views.AdCompleteReceiver
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:370:9-374:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:370:19-82
+intent-filter#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:371:13-373:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:372:17-82
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:372:25-79
+activity#com.mobisage.android.MobiSageActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:377:9-380:20
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:379:13-74
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:378:13-65
+activity#com.google.android.gms.ads.AdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:383:9-386:64
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:385:13-122
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:386:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:384:13-65
+meta-data#com.google.android.gms.version
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:388:9-390:39
+	android:value
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:390:13-36
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:389:13-58
+activity#com.baidu.mobads.AppActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:393:9-395:75
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:395:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:394:13-56
+meta-data#BaiduMobAd_APP_ID
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:397:9-399:40
+	android:value
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:399:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:398:13-45
+meta-data#BaiduMobAd_APP_SEC
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:400:9-402:40
+	android:value
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:402:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:401:13-46
+activity#com.mt.airad.MultiAD
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:411:9-414:75
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:413:13-72
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:414:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:412:13-48
+activity#cn.appmedia.ad.AdActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:417:9-418:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:417:19-59
+activity#cn.immob.sdk.util.LMActionHandler
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:421:9-422:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:421:19-67
+service#cn.immob.sdk.net.DownloadService
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:424:9-425:19
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:424:18-65
+service#cn.immob.sdk.service.GetLocationService
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:426:9-427:19
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:426:18-72
+activity#cn.immob.sdk.BrowserActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:429:9-430:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:429:19-62
+activity#com.kyview.screen.interstitial.adapters.LmMobActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:431:9-432:20
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:431:19-87
+activity#com.millennialmedia.android.MMActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:435:9-439:20
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:437:13-72
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:438:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:436:13-66
+activity#com.umengAd.android.UmengAdDetailActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:442:9-445:64
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:444:13-63
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:445:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:443:13-69
+activity#com.vpadn.widget.VpadnActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:448:9-452:64
+	android:hardwareAccelerated
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:451:13-47
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:450:13-133
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:452:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:449:13-58
+activity#com.amazon.device.ads.MraidBrowser
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:470:9-472:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:472:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:471:13-62
+activity#com.amazon.device.ads.VideoActionHandler
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:473:9-475:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:475:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:474:13-68
+activity#com.kuaiyou.AdViewInstlActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:476:9-479:64
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:478:13-63
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:479:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:477:13-59
+meta-data#AdView_CHANNEL
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:482:9-485:21
+	android:value
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:484:13-33
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:483:13-42
+activity#com.kyview.screen.interstitial.adapters.AdInstlActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:489:9-92
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:489:19-89
+activity#com.qiang.escore.sdk.view.DetailActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:492:9-494:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:494:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:493:13-68
+activity#com.qiang.escore.sdk.view.WebActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:495:9-497:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:497:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:496:13-65
+meta-data#YJF_APP_CHANNEL
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:499:9-501:38
+	android:value
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:501:13-35
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:500:13-43
+activity#com.guohead.mix.MIXViewActivity
+ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:504:9-509:20
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:507:13-50
+	android:launchMode
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:506:13-43
+	android:theme
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:508:13-83
+	android:name
+		ADDED from /Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/AndroidManifest.xml:505:13-59
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/vinith/.android/build-cache/10f2bc1b5822d3273ec1a735398905849a0b8954/output/AndroidManifest.xml:18:9-115
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/vinith/.android/build-cache/10f2bc1b5822d3273ec1a735398905849a0b8954/output/AndroidManifest.xml:18:19-59
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/vinith/.android/build-cache/10f2bc1b5822d3273ec1a735398905849a0b8954/output/AndroidManifest.xml:18:60-113

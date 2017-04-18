@@ -13,12 +13,12 @@ import com.kyview.interfaces.AdViewSpreadListener;
 import com.kyview.manager.AdViewSpreadManager;
 
 /**
- * 
+ *
  *Open Screen Advertisement
- * 
+ *
  */
 public class SpreadScreenActivity extends Activity implements
-        AdViewSpreadListener {
+		AdViewSpreadListener {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -124,7 +124,7 @@ public class SpreadScreenActivity extends Activity implements
 	 */
 	@Override
 	public void onAdSpreadNotifyCallback(String arg0, ViewGroup arg1, int arg2,
-                                         int arg3) {
+										 int arg3) {
 		// TODO Auto-generated method stub
 
 	}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gdt_mob_release">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/gdt_mob_release.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
