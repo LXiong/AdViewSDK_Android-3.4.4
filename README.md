@@ -90,6 +90,7 @@ Region optimization function means mobile phone displays the regional configured
 
 **AdViewTestDemoEN**
 This folder contains Adview demo project which includes all types of ad format (banner,interstitial,video,native,open screen) sample code with explanation.
+
 **libs**
 It contains all the .jar file SDK needed for ad platform integration. 
 (Libinfo.pdf has the ad platform instructions corresponding to each jar.)
