@@ -99,7 +99,7 @@ It contains all the .jar file SDK needed for ad platform integration.
 ## III. Add SDK
 
 1. Clone or download AdViewSDK_Android-3.4.1 package here.In the AdViewSDK_Android-3.4.1 folder contains libs folder ,it contains the SDK for all ad platforms. (Libinfo.pdf has the ad platform instructions corresponding to each jar.)
-2. Please copy and paste **AdViewSDK_Android.jar, android-support-v4.jar and google-play-services.jar** into your application lib folder.you'll need to integrate the Google Play Services SDK into your app.This is mandatory; without Google Play Services, the SDK cannot function.
+2. Please copy and paste **AdViewSDK_Android.jar,google-play-services.jar** into your application lib folder.you'll need to integrate the Google Play Services SDK into your app.This is mandatory; without Google Play Services, the SDK cannot function.
 
 3. In order to add **new ad network** please copy the .jar file of that particular ad platform provided by AdView to your lib folder and follow the same for all other ad platforms you would like to integrate. In case of **InMobi** add the **InMobi.jar** and **Picaso.jar** files.Please refer for adding custom ad Network this procedure [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
 
