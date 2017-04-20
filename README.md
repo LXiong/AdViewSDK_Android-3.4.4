@@ -179,7 +179,9 @@ Please add the below code in the AndroidMainfest file:
 	//real-time access to configuration, not required 
 	.setUpdateMode(UpdateMode.EVERYTIME)
 	// banner switcher can be closed
-	.setBannerCloseble(BannerSwitcher.CANCLOSED).build();
+	.setBannerCloseble(BannerSwitcher.CANCLOSED)
+	//Interstitial Type
+        .setInstlDisplayType(InitConfiguration.InstlDisplayType.POPUPWINDOW_MODE).build();
 	
 	
 	//respectively request banner,interstitial,native, opening screen ad configuration,SDK_KEY can be one key 
@@ -224,7 +226,7 @@ Add the following code to your activity:
 	 InitConfiguration initConfiguration = new InitConfiguration.Builder(this)
 		   .setUpdateMode(InitConfiguration.UpdateMode.EVERYTIME)
 		   .setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-		   .build(); 
+		   .setInstlDisplayType(InitConfiguration.InstlDisplayType.POPUPWINDOW_MODE).build();
 	
 
 	 //Initialization for Banner
@@ -349,7 +351,7 @@ Add the following code to your activity:
 	 InitConfiguration initConfiguration = new InitConfiguration.Builder(this)
 			.setUpdateMode(InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-			.build(); 
+			 .setInstlDisplayType(InitConfiguration.InstlDisplayType.POPUPWINDOW_MODE).build();
 			
 	
 	//Initialization for interstitual advertisement
@@ -458,7 +460,7 @@ Example We are here used Relative Layout for Opening Screen ad,
 	InitConfiguration initConfiguration = new InitConfiguration.Builder(this)                
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-			.build();
+			 .setInstlDisplayType(InitConfiguration.InstlDisplayType.POPUPWINDOW_MODE).build();
 			
 	//Intialization for Open Screen ad
 	AdViewSpreadManager.getInstance(this).init(initConfiguration, new String[]{SDK_KEY});
@@ -570,7 +572,7 @@ Add the following code to your activity:
 	InitConfiguration initConfiguration = new InitConfiguration.Builder(this)                
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-			.build();
+			 .setInstlDisplayType(InitConfiguration.InstlDisplayType.POPUPWINDOW_MODE).build();
 			
 	//Intialization for Native advertisement
 	AdViewNativeManager.getInstance(this).init(initConfiguration,new String[]{SDK_KEY});
@@ -661,7 +663,7 @@ Add the following code in activity,
 	InitConfiguration initConfiguration = new InitConfiguration.Builder(this)                
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
-			.build();
+			 .setInstlDisplayType(InitConfiguration.InstlDisplayType.POPUPWINDOW_MODE).build();
 
 ```
 **Note:**
