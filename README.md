@@ -89,7 +89,7 @@ Region optimization function means mobile phone displays the regional configured
 1. Clone or download AdViewSDK_Android-3.4.1 package to go ahead with the integration process. This package contains all files needed for smooth integration and some of the important fils include **AdViewTestDemoEN** and **libs**.
 
 **AdViewTestDemoEN**
-This folder contains Adview demo project which includes all types of ad format (banner,interstitial,video,native,open screen) sample code with explanation.you can run the application. you can see the **test ads**.
+AdViewTestDemoEN project which includes all types of ad format (banner,interstitial,video,native,open screen) sample code with explanation.you can run the application. you can see the **test ads**.
 
 **libs**
 It contains all the .jar file SDK needed for ad platform integration. 
