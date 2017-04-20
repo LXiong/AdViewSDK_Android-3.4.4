@@ -50,6 +50,9 @@ public class SpreadScreenActivity extends Activity implements
 
 
 
+	/*
+	 * For better ad revenue, please disable the return key until the ad is displayed
+	 */		
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 		if (keyCode == KeyEvent.KEYCODE_BACK)
