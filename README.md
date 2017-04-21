@@ -881,7 +881,7 @@ There’s a “Custom ad platform” in add ad platform . Developer needs to fil
 ```
 **You can refer the code in AdViewTestDemoEN project --> BannerActivity for implementation of Amazon ad;** 
 
-## XIII. Contact us 
+## XIV. Contact us 
 
 Users can login Adview, there are service E-mail, service contact number and enterprise QQ customer service at the bottom of the homepage 
 
