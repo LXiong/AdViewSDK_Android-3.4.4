@@ -454,6 +454,8 @@ Example We are here used Relative Layout for Opening Screen ad,
 
 ```
 
+Add the following code to your activity:
+
 ```
 	//Basic Initialization
 	InitConfiguration initConfiguration = new InitConfiguration.Builder(this)                
@@ -463,6 +465,7 @@ Example We are here used Relative Layout for Opening Screen ad,
 			
 	//Intialization for Open Screen ad
 	AdViewSpreadManager.getInstance(this).init(initConfiguration, new String[]{SDK_KEY});
+	
 ```		
 
 
@@ -522,7 +525,7 @@ After you implement this listener you will get the following methods.
 ```
 
 **Note:**
-Please refer **SpreadScreenActivity** in **AdViewTestDemoEN** Project.
+Please refer to the code of **SpreadScreenActivity** in **AdViewTestDemoEN** Project.
 
 
 **8.3 Custom notification on top of opening screen with countdown options** 
@@ -547,7 +550,8 @@ Please refer **SpreadScreenActivity** in **AdViewTestDemoEN** Project.
 
 **Note:**
 
-For opening advertising please make sure the exposure time is sufficient, otherwise it will affect the ad revenue. You can refer to the code of SpreadScreenActivity in **AdViewTestDemoEN** Project.
+For opening advertising please make sure the exposure time is sufficient, otherwise it will affect the ad revenue. 
+Please refer to the code of **SpreadScreenActivity** in **AdViewTestDemoEN** Project.
 
 ## IX. Create native advertising 
 
@@ -619,7 +623,9 @@ Add the following code to your activity:
 
 ```
 **Note:**
-You can refer to the code of **AdNativeActivity** in **AdViewTestDemoEN** Project.
+
+please refer to the code of **AdNativeActivity** in **AdViewTestDemoEN** Project.
+
 please add DividerItemDecoration ,MyItemClickListener files for Native ad. 
 you can get it from **AdViewTestDemoEN** Project .
 
@@ -663,16 +669,16 @@ Add the following code in activity,
 			.setUpdateMode( InitConfiguration.UpdateMode.EVERYTIME)
 			.setBannerCloseble(InitConfiguration.BannerSwitcher.CANCLOSED)
 			 .setInstlDisplayType(InitConfiguration.InstlDisplayType.POPUPWINDOW_MODE).build();
-
-```
-**Note:**
-
-This code is useful to get logs while testing, before uploading the application to live 
-please delete the this code (setRunMode(InitConfiguration.RunMode.TEST))
-
-```
+			 
 	//Initialization For Video ads
 	AdViewVideoManager.getInstance(this).init(initConfiguration,new String[]{SDK_KEY});
+
+```
+
+
+
+```
+	
 
 	//Request video ads after initialization. Request and display ads should be used separately.
 	AdViewVideoManager.getInstance(this).requestAd(this,SDK_KEY,this);
