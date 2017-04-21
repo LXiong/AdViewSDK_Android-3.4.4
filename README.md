@@ -739,6 +739,7 @@ If you have a ProGuard configuration file please add the below lines of code in 
 In case you add other adnetworks ( like InMobi, AdMob etc..,) add their proguard rules to proguard-rules.pro file.
 
 For example In case of InMobi add the below lines of code to the proguard-rules.pro.
+
 ```
 	-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient{
 	    public *;
@@ -756,15 +757,22 @@ For example In case of InMobi add the below lines of code to the proguard-rules.
 ```
 
 
+**Note:**
+
+You can refer to the code of **AdVideoActivity** in **AdViewTestDemoEN** Project.
+
+
+
 ## XII. Adding custom ad network
 
-AdView has integrated various ad netwroks (InMobi, AdMob, etc..,) where you are given flexibility to add the ad netwrok of your choice and prioritize accordingly, there are various advantages of integrating more than one ad networks to monetize your app, some them imcclude
+AdView has integrated various ad networks (InMobi, AdMob, etc..,) where you are given flexibility to add the ad network of your choice and prioritize accordingly, there are various advantages of integrating more than one ad networks to monetize your app, some them include
+
 --> Good fill rates - we suggest to include on an avrage of 3 ad netwroks for good fill rates
 --> More revenue
 --> You can prioritize according to the ad platform performance
 
 
-1. In your publisher dashboard http://adview.com/user/appreport click on the "App Management" tab --> click "Configure" against your app name which you want to add custom ad networks, then click on "Add Platform" button (out of China or within China depending on your region ) --> you will be redirected to the popup as shown below where you can choose ad netwrok of your choice.
+1. In your publisher dashboard http://adview.com/user/appreport click on the "App Management" tab --> click "Configure" against your app name which you want to add custom ad networks, then click on "Add Platform" button (out of China or within China depending on your region ) --> you will be redirected to the popup as shown below where you can choose ad network of your choice.
 
 
 ![Inmobi 0](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/Adding%20Inmobi%20in%20DashBoard%20.png)
@@ -776,13 +784,15 @@ AdView has integrated various ad netwroks (InMobi, AdMob, etc..,) where you are 
 
  ![Inmobi 1](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/inmobi%201.png)
 
-Please add the SDK of InMobi--> you can follow this procedure [Add SDK](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#iii-add-sdk)
+Please add the SDK of InMobi--> you can follow this procedure 
+
+[Add SDK](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#iii-add-sdk)
 
 3. After login you will get the the account ID as shown in the below image, click on Add an App.  
 
 ![Inmobi 2](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/inmobi2.jpg)
 
-4. Please add your application ( the same application you want to add custom Ad platform in AdView) by filling in the details as asked in below imgae, in case of any proguard rules in the Ad Network integration part just copy and paste them in proguard-rules.pro file in your project.  
+4. Please add your application ( the same application you want to add custom Ad platform in AdView) by filling in the details as asked in below image, in case of any proguard rules in the Ad Network integration part just copy and paste them in proguard-rules.pro file in your project.  
 
 ![Inmobi 3](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/inmobi3.jpg)
 
@@ -797,7 +807,7 @@ Please add the SDK of InMobi--> you can follow this procedure [Add SDK](https://
 
 In the same way you can configure different custom Ad Networks to your app (different Ad networks might demand different ID's to be configured ) 
 
-## XII. Add custom ad platform
+## XIII. Add custom ad platform
 
 Sometimes developers would like to add a platform which is not aggregated, Adview provide ways to meet this demand.
 
