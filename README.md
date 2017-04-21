@@ -70,7 +70,7 @@
 
 **Notes:**
 
-1. In This Github repository we have provided you with Adview SDK which gives you the freedom to choose your favourite ad network. in order to add custom ad netwroks please refer to this [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
+1. In This Github repository we have provided you with Adview Android SDK which gives you the freedom to choose your favourite ad network. in order to add custom ad netwroks please refer to this [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
 2. If you are fresher, you don’t know much about ad platform, which ad platform to choose or which ad platform revenue is stable, we suggest you to use bidding first.
 3. Bidding and remnant ads need to complement market information at background, if the status is **"Under review"** you will be receiving test ads. and you will get formal ads only after **"pass reviewed"** by the AdView team. 
 4. Ads will be shown of only those ad platforms for which the **switch** is on against them.						
