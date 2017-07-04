@@ -1,11 +1,23 @@
 [
     {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/drawable/close_ad_btn.png",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/drawable/close_ad_btn.png"
+    },
+    {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/drawable/spread_logo.jpg",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/drawable/spread_logo.jpg"
+    },
+    {
         "merged": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/res/merged/debug/drawable/close_ad_btn.png",
         "source": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/res/drawable/close_ad_btn.png"
     },
     {
         "merged": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/res/merged/debug/drawable/spread_logo.jpg",
         "source": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/res/drawable/spread_logo.jpg"
+    },
+    {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/drawable/logo.jpg",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/drawable/logo.jpg"
     },
     {
         "merged": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/res/merged/debug/drawable/logo.jpg",

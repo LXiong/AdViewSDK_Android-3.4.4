@@ -47,6 +47,50 @@
     <!-- Ader、力美所需权限 -->
     <uses-permission android:name="android.permission.READ_CALENDAR" />
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Adsmar移动必须 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+
+    <!-- 磨盘必须 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- 安沃、力美所需的权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- InMobi、易传媒所需的权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- InMobi、力美所需的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- -易传媒 所需的权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <!-- Ader、smaato可选权限 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <!-- Ader、智游汇(果合)权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- Ader、力美所需权限 -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- 有米 所需的权限 -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+    <!-- Ader、万普、指点、力美所需权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- 百度 所需的权限 -->
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <!-- smaato 所需的权限 -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
 
     <!-- Ader、万普、指点、力美所需权限 -->
     <uses-permission android:name="android.permission.GET_TASKS" />
@@ -60,6 +104,7 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
     <application
+        android:name="android.support.multidex.MultiDexApplication"
         android:icon="@drawable/ic_lancher"
         android:label="@string/app_name"
         android:screenOrientation="portrait"
@@ -73,16 +118,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.kyview.testdemo.AdNativeActivity" >
-        </activity>
-        <activity android:name="com.kyview.testdemo.AdVideoActivity" >
-        </activity>
-        <activity android:name="com.kyview.testdemo.AdInstlActivity" >
-        </activity>
-        <activity android:name="com.kyview.testdemo.AdBannerActivity" >
-        </activity>
-        <activity android:name="com.kyview.testdemo.SpreadScreenActivity" >
-        </activity>
+        <activity android:name="com.kyview.testdemo.AdNativeActivity" />
+        <activity android:name="com.kyview.testdemo.AdVideoActivity" />
+        <activity android:name="com.kyview.testdemo.AdInstlActivity" />
+        <activity android:name="com.kyview.testdemo.AdBannerActivity" />
+        <activity android:name="com.kyview.testdemo.SpreadScreenActivity" />
 
         <!-- Must declare it for Adivew SDK -->
         <activity
@@ -177,6 +217,14 @@
             android:name="com.inmobi.signals.activityrecognition.ActivityRecognitionManager"
             android:enabled="true" />
 
+        <!-- Adview SDK for Chartboots -->
+        <activity
+            android:name="com.chartboost.sdk.CBImpressionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
         <!-- Adview SDK for 360聚效 MVAd -->
         <service
             android:name="com.mediav.ads.sdk.service.MvService"
@@ -186,8 +234,7 @@
         <!-- Adview SDK for adWalker -->
         <activity
             android:name="com.adwalker.wall.platform.layout.AdShowActivity"
-            android:configChanges="keyboardHidden|orientation" >
-        </activity>
+            android:configChanges="keyboardHidden|orientation" />
         <activity
             android:name="com.adwalker.wall.platform.layout.AdDetailActivity"
             android:configChanges="keyboardHidden|orientation" />
@@ -217,8 +264,7 @@
         <!-- Adview SDK for aduu -->
         <activity
             android:name="cn.aduu.android.AdActivity"
-            android:theme="@android:style/Theme.Translucent" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent" />
 
         <!-- AdView SDK for Momark -->
         <activity
@@ -239,18 +285,15 @@
             android:name="net.youmi.android.normal.video.VideoActivity"
             android:configChanges="keyboard|keyboardHidden|screenSize|orientation"
             android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name="net.youmi.android.AdBrowser"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-            android:theme="@android:style/Theme.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.NoTitleBar" />
 
         <service
             android:name="net.youmi.android.AdService"
-            android:exported="false" >
-        </service>
+            android:exported="false" />
 
         <receiver android:name="net.youmi.android.AdReceiver" >
             <intent-filter>
@@ -312,8 +355,7 @@
 
         <activity
             android:name="com.chance.ads.AdActivity"
-            android:theme="@android:style/Theme.Translucent" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent" />
 
         <service
             android:name="com.chance.engine.AdService"
@@ -327,14 +369,12 @@
         <!-- AdView SDK for tencent Gdt -->
         <service
             android:name="com.qq.e.comm.DownloadService"
-            android:exported="false" >
-        </service>
+            android:exported="false" />
 
         <activity
             android:name="com.qq.e.ads.ADActivity"
             android:configChanges="keyboard|keyboardHidden|orientation"
-            android:theme="@android:style/Theme.Translucent" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent" />
 
         <!-- AdView SDK for 宜搜 -->
         <service
@@ -375,11 +415,15 @@
             </intent-filter>
         </receiver>
 
+        <!-- AdView SDK for JiuXu, also need the folowing google setting -->
+        <activity
+            android:name="com.chamspire.mobile.ad.base.platforms.self.SelfFullActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
         <!-- AdView SDK for MobiSage -->
         <activity
             android:name="com.mobisage.android.MobiSageActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize" >
-        </activity>
+            android:configChanges="keyboardHidden|orientation|screenSize" />
 
         <!-- AdView SDK for AdMob -->
         <activity
@@ -407,6 +451,16 @@
             android:name="BaiduMobAd_DEBUG_TOKEN"
             android:value="adview" />  
         -->
+
+
+        <!-- AdView SDK for Adsmar -->
+
+        <activity
+            android:name="com.adusing.adsmar.request.AdBrowser"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize" />
+
+        <service android:name="com.adusing.adsmar.update.DownloadService" />
+
         <!-- AdView SDK for AirAd -->
         <activity
             android:name="com.mt.airad.MultiAD"
@@ -414,29 +468,22 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <!-- AdView SDK for AppMedia -->
-        <activity android:name="cn.appmedia.ad.AdActivity" >
-        </activity>
+        <activity android:name="cn.appmedia.ad.AdActivity" />
 
         <!-- AdView SDK for imMob -->
-        <activity android:name="cn.immob.sdk.util.LMActionHandler" >
-        </activity>
+        <activity android:name="cn.immob.sdk.util.LMActionHandler" />
 
-        <service android:name="cn.immob.sdk.net.DownloadService" >
-        </service>
-        <service android:name="cn.immob.sdk.service.GetLocationService" >
-        </service>
+        <service android:name="cn.immob.sdk.net.DownloadService" />
+        <service android:name="cn.immob.sdk.service.GetLocationService" />
 
-        <activity android:name="cn.immob.sdk.BrowserActivity" >
-        </activity>
-        <activity android:name="com.kyview.screen.interstitial.adapters.LmMobActivity" >
-        </activity>
+        <activity android:name="cn.immob.sdk.BrowserActivity" />
+        <activity android:name="com.kyview.screen.interstitial.adapters.LmMobActivity" />
 
         <!-- AdView SDK for millennialmedia -->
         <activity
             android:name="com.millennialmedia.android.MMActivity"
             android:configChanges="keyboardHidden|orientation|keyboard"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <!-- AdView SDK for Umeng -->
         <activity
@@ -480,8 +527,7 @@
         <!-- Channel id for app markets -->
         <meta-data
             android:name="AdView_CHANNEL"
-            android:value="GFAN" >
-        </meta-data>
+            android:value="GFAN" />
 
         <!-- 插屏 -->
         <!-- AdView SDK for 安沃 -->
@@ -504,9 +550,23 @@
             android:name="com.guohead.mix.MIXViewActivity"
             android:launchMode="singleTop"
             android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
 
+        <!-- Adview SDK for Tapjoy -->
+        <activity
+            android:name="com.tapjoy.TJAdUnitActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.tapjoy.mraid.view.ActionHandler"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TJContentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.mraid.view.Browser"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
         <!--
         supported markets are as follows:
 		EOE(优亿市场)

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_lancher.png",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/drawable-hdpi/ic_lancher.png"
+    },
+    {
         "merged": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_lancher.png",
         "source": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/res/drawable-hdpi/ic_lancher.png"
     }

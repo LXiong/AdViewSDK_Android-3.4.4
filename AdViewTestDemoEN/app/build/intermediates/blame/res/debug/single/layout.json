@@ -4,12 +4,32 @@
         "source": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/res/layout/native_ad_item1.xml"
     },
     {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/spread_layout.xml",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/layout/spread_layout.xml"
+    },
+    {
         "merged": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/activity_adnative.xml",
         "source": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/res/layout/activity_adnative.xml"
     },
     {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/activity_advideo.xml",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/layout/activity_advideo.xml"
+    },
+    {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/main_activity.xml",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/layout/main_activity.xml"
+    },
+    {
         "merged": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/native_ad_item.xml",
         "source": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/res/layout/native_ad_item.xml"
+    },
+    {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/native_ad_item1.xml",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/layout/native_ad_item1.xml"
+    },
+    {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/native_ad_item.xml",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/layout/native_ad_item.xml"
     },
     {
         "merged": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/activity_adbanner.xml",
@@ -28,12 +48,32 @@
         "source": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/res/layout/popup_instl.xml"
     },
     {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/popup_instl.xml",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/layout/popup_instl.xml"
+    },
+    {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/activity_adinstl.xml",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/layout/activity_adinstl.xml"
+    },
+    {
         "merged": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/version_layout.xml",
         "source": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/res/layout/version_layout.xml"
     },
     {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/activity_adbanner.xml",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/layout/activity_adbanner.xml"
+    },
+    {
         "merged": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/activity_adinstl.xml",
         "source": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/src/main/res/layout/activity_adinstl.xml"
+    },
+    {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/activity_adnative.xml",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/layout/activity_adnative.xml"
+    },
+    {
+        "merged": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/version_layout.xml",
+        "source": "/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/src/main/res/layout/version_layout.xml"
     },
     {
         "merged": "/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/res/merged/debug/layout/main_activity.xml",

@@ -3,93 +3,66 @@
 
     <item
         is-multidex="false"
-        jar="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/libs/AdViewSDK_Android.jar"
+        jar="/Users/vinith/.android/build-cache/c69e4083ce362197621a0bc236cf824ab0aa2c0c/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="323648a484fb603c397b253727ffc18e440236c7">
-        <dex dex="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/AdViewSDK_Android_a8d4eeb770c7007beedf9720e31faee071fbb527.jar" />
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/classes_124aa95365d521bfd6fe21e1dde13c49015a7907.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/libs/amazon-ads.jar"
+        jar="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/libs/amazon-ads.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="383742a34142d4bd80e0b4fdec0a48db85e969aa">
-        <dex dex="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/amazon-ads_abad493195fee5dfdde2ec7c2cc9586137638ff2.jar" />
+        <dex dex="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/amazon-ads_7463714de5da6056eda6369443f182549ef50895.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/vinith/.android/build-cache/10f2bc1b5822d3273ec1a735398905849a0b8954/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/classes_1ccca01fbc166bafd66d6710dbd200ed071554d0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/libs/suntengMob.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ae614f0502b80ac7ee04f49cacda1fedf06513fb">
-        <dex dex="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/suntengMob_2645854fe1370e98b2ea5611ea64312472c33f1a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/libs/gdt_mob_release.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2ea719b08062c15bcc126897846e8b4467df41f1">
-        <dex dex="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/gdt_mob_release_69c11662aab1040d86855c4f235a643193b77a92.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/libs/google-play-services.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d46489ddf16aa31068d51daf98c789890a51aa2f">
-        <dex dex="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/google-play-services_7e5d684ae5dbf2d3597a0b33cc27bc1ca29a8a37.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/vinith/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_cb138ac653574f3b5d5d738128cfff8073754c91.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/vinith/.android/build-cache/bf0f177493e0b18539ba19eb5c84fc7f6bc45c67/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/classes_5201f0e7d4cc79b62ee86ffc419fb13e8c1f1023.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/libs/suntengvideo.jar"
+        jar="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/libs/suntengvideo.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="77a432281ee48feb7118401e10453be2db585282">
-        <dex dex="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/suntengvideo_bccaea5b89d40c701e4221a5b35a7eb9409bbf65.jar" />
+        <dex dex="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/suntengvideo_c98321606014705025a0c0df7f2b13229a66f066.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/vinith/.android/build-cache/bf0f177493e0b18539ba19eb5c84fc7f6bc45c67/output/jars/libs/internal_impl-21.0.3.jar"
+        jar="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/libs/suntengMob.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/vinith/Desktop/final android sdkk development/adview demo /AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_69f1ebfbe80384acf7c77a78c0eb8367232af434.jar" />
+        sha1="ae614f0502b80ac7ee04f49cacda1fedf06513fb">
+        <dex dex="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/suntengMob_a15d0555ae4a86d2b41b1c8dc227f8f76403cd8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/libs/google-play-services.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d46489ddf16aa31068d51daf98c789890a51aa2f">
+        <dex dex="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/google-play-services_fd36afb249623cfeb0148514f9b3995f9a8f45e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/libs/gdt_mob_release.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2ea719b08062c15bcc126897846e8b4467df41f1">
+        <dex dex="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/gdt_mob_release_ae8a34b68a3b146f9c82732a776dff8bb6611508.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/libs/AdViewSDK_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="323648a484fb603c397b253727ffc18e440236c7">
+        <dex dex="/Users/vinith/Documents/adview sdk 3.4.2 vinith/AdViewSDK_Android-3.4.2/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/AdViewSDK_Android_c8732f6797f6206bb7bfe503838a6e89eddd8b69.jar" />
     </item>
 
 </items>
