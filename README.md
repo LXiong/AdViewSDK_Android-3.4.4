@@ -4,7 +4,7 @@
 
 [I. Register and configure SDK-KEY](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#i-register-and-configure-sdk-key)
 
-[II.About AdViewSDK_Android-3.4.1](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#Ⅱabout-adviewsdk_android-341)
+[II.About AdViewSDK_Android-3.4.2](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#Ⅱabout-adviewsdk_android-341)
 
 [III. Add SDK](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#iii-add-sdk)
 
@@ -83,9 +83,9 @@ Region optimization function means mobile phone displays the regional configured
 
 8. In case you wish to show the same ad format more than once (like 2 banner ads) you need to create a new project (My product page --> publish app) with same credentials to get a new SDK key and the integration process remains same, you need not create a new project if the ad formats are different
 
-## Ⅱ.About AdViewSDK_Android-3.4.1
+## Ⅱ.About AdViewSDK_Android-3.4.2
 
-1. Clone or download AdViewSDK_Android-3.4.1 package to go ahead with the integration process. This package contains all files needed for smooth integration and some of the important fils include **AdViewTestDemoEN** and **libs**.
+1. Clone or download AdViewSDK_Android-3.4.2 package to go ahead with the integration process. This package contains all files needed for smooth integration and some of the important fils include **AdViewTestDemoEN** and **libs**.
 
 **AdViewTestDemoEN**
 AdViewTestDemoEN project which includes all types of ad format (banner,interstitial,video,native,open screen) sample code with explanation.you can run the application. you can see the **test ads**.
@@ -97,7 +97,7 @@ It contains all the .jar file SDK needed for ad platform integration.
 
 ## III. Add SDK
 
-1. Clone or download AdViewSDK_Android-3.4.1 package here.In the AdViewSDK_Android-3.4.1 folder contains libs folder ,it contains the SDK for all ad platforms. (Libinfo.pdf has the ad platform instructions corresponding to each jar.)
+1. Clone or download AdViewSDK_Android-3.4.2 package here.In the AdViewSDK_Android-3.4.2 folder contains libs folder ,it contains the SDK for all ad platforms. (Libinfo.pdf has the ad platform instructions corresponding to each jar.)
 2. Please copy and paste **AdViewSDK_Android.jar,google-play-services.jar** into your application lib folder.you'll need to integrate the Google Play Services SDK into your app.This is mandatory; without Google Play Services, the SDK cannot function.
 
 3. In order to add **new ad network** please copy the .jar file of that particular ad platform provided by AdView to your lib folder and follow the same for all other ad platforms you would like to integrate. In case of **InMobi** add the **InMobi.jar** and **Picaso.jar** files.Please refer for adding custom ad Network this procedure [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
