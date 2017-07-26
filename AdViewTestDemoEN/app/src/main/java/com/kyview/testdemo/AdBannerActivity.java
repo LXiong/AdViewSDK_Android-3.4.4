@@ -8,14 +8,6 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.FrameLayout;
 
-import com.amazon.device.ads.AdError;
-import com.amazon.device.ads.AdLayout;
-import com.amazon.device.ads.AdListener;
-import com.amazon.device.ads.AdProperties;
-import com.amazon.device.ads.AdRegistration;
-import com.amazon.device.ads.AdTargetingOptions;
-import com.kyview.InitConfiguration;
-import com.kyview.adapters.AdViewAdapter;
 import com.kyview.interfaces.AdViewBannerListener;
 import com.kyview.manager.AdViewBannerManager;
 
@@ -24,7 +16,6 @@ public class AdBannerActivity extends Activity implements AdViewBannerListener {
      * Called when the activity is first created.
      */
     private FrameLayout layout;
-    private AdLayout adView = null;
 
 
     @Override
@@ -139,62 +130,62 @@ public class AdBannerActivity extends Activity implements AdViewBannerListener {
 
 
     //If we suppose use  Amazon AdNetwork custom platform,we should follow this code for Banner Advertisement
-    public void amazon_proc(final AdViewAdapter adapter, final String key) {
-        Log.d("AdViewSample", "Into azmazon");
-        try {
-            // Test mode
-            AdRegistration.enableLogging(this, true);
-            AdRegistration.enableTesting(this, true);
-            AdRegistration.setAppKey(this, "sample-app-v1_pub-2");
-
-            // Create an adview instance of amazon
-            adView = new AdLayout(this, AdLayout.AdSize.AD_SIZE_320x50);
-
-            // Specifies the listen interface
-            adView.setListener(new AdListener() {
-
-                @Override
-                public void onAdLoaded(AdLayout arg0, AdProperties arg1) {
-                    Log.d("AdViewSample", arg1.getAdType().toString()
-                            + " Ad loaded successfully.");
-
-                    // After the ad request succeeds锛孲tart the timer锛孴he next ad is requested after that time
-                    adapter.reportImpression(AdBannerActivity.this, key);
-
-                    adapter.rotateDelayedAd(AdBannerActivity.this, key);
-
-                }
-
-                @Override
-                public void onAdExpanded(AdLayout arg0) {
-                }
-
-                @Override
-                public void onAdCollapsed(AdLayout arg0) {
-                }
-
-                @Override
-                public void onAdFailedToLoad(AdLayout arg0, AdError arg1) {
-                    Log.w("AdViewSample",
-                            "Ad failed to load. Code: "
-                                    + arg1.getResponseCode() + ", Message: "
-                                    + arg1.getResponseMessage());
-
-                    // Failed to start requesting the next ad
-//					adapter.rotatePriAd(AdBannerActivity.this, key);
-                }
-
-            });
-            AdViewBannerManager.getInstance(AdBannerActivity.this).addSubView(
-                    AdViewBannerManager.getInstance(AdBannerActivity.this)
-                            .getAdViewLayout(AdBannerActivity.this, key),
-                    adView, key);
-            AdTargetingOptions adOptions = new AdTargetingOptions();
-            adView.loadAd(adOptions);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+//    public void amazon_proc(final AdViewAdapter adapter, final String key) {
+//        Log.d("AdViewSample", "Into azmazon");
+//        try {
+//            // Test mode
+//            AdRegistration.enableLogging(this, true);
+//            AdRegistration.enableTesting(this, true);
+//            AdRegistration.setAppKey(this, "sample-app-v1_pub-2");
+//
+//            // Create an adview instance of amazon
+//            adView = new AdLayout(this, AdLayout.AdSize.AD_SIZE_320x50);
+//
+//            // Specifies the listen interface
+//            adView.setListener(new AdListener() {
+//
+//                @Override
+//                public void onAdLoaded(AdLayout arg0, AdProperties arg1) {
+//                    Log.d("AdViewSample", arg1.getAdType().toString()
+//                            + " Ad loaded successfully.");
+//
+//                    // After the ad request succeeds锛孲tart the timer锛孴he next ad is requested after that time
+//                    adapter.reportImpression(AdBannerActivity.this, key);
+//
+//                    adapter.rotateDelayedAd(AdBannerActivity.this, key);
+//
+//                }
+//
+//                @Override
+//                public void onAdExpanded(AdLayout arg0) {
+//                }
+//
+//                @Override
+//                public void onAdCollapsed(AdLayout arg0) {
+//                }
+//
+//                @Override
+//                public void onAdFailedToLoad(AdLayout arg0, AdError arg1) {
+//                    Log.w("AdViewSample",
+//                            "Ad failed to load. Code: "
+//                                    + arg1.getResponseCode() + ", Message: "
+//                                    + arg1.getResponseMessage());
+//
+//                    // Failed to start requesting the next ad
+////					adapter.rotatePriAd(AdBannerActivity.this, key);
+//                }
+//
+//            });
+//            AdViewBannerManager.getInstance(AdBannerActivity.this).addSubView(
+//                    AdViewBannerManager.getInstance(AdBannerActivity.this)
+//                            .getAdViewLayout(AdBannerActivity.this, key),
+//                    adView, key);
+//            AdTargetingOptions adOptions = new AdTargetingOptions();
+//            adView.loadAd(adOptions);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
 
 
 

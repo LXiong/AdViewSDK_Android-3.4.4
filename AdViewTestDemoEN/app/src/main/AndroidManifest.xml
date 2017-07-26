@@ -161,6 +161,10 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
+        <!-- AdView SDK for MobFox-->
+        <activity android:name="com.mobfox.sdk.interstitialads.InterstitialActivity"></activity>
+
+
         <!-- AdView SDK for 舜飞-->
         <activity
             android:name="com.ads.sdk.video.VideoActivity"
@@ -179,6 +183,15 @@
         <activity
             android:name="com.suntengmob.sdk.activity.SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+            android:screenOrientation="portrait" />
+
+
+        <!--AdView SDK for 讯飞    -->
+        <service
+            android:name="com.iflytek.voiceads.update.DownloadService"/>
+
+        <activity
+            android:name="com.iflytek.voiceads.request.IFLYBrowser"
             android:screenOrientation="portrait" />
 
         <!-- AdView SDK for AdPro 光音 -->
@@ -279,6 +292,17 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
+        <!-- AdView SDK for Youmi -->
+        <!-- 视频组件 -->
+        <!--<activity-->
+            <!--android:name="net.youmi.android.nm.vdo.VideoActivity"-->
+            <!--android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout"-->
+            <!--android:resizeableActivity="false"-->
+            <!--android:screenOrientation="landscape"-->
+            <!--android:taskAffinity=""-->
+            <!--android:theme="@android:style/Theme.NoTitleBar" >-->
+        <!--</activity >-->
 
         <!-- AdView SDK for Domob -->
         <activity
@@ -441,7 +465,7 @@
 
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="8487000" />
+            android:value="11010000" />
 
         <!-- AdView SDK for Baidu -->
         <activity

@@ -43,8 +43,8 @@ public class SpreadScreenActivity extends Activity implements
 		AdViewSpreadManager.getInstance(this).setSpreadNotifyType(AdViewSpreadManager.NOTIFY_COUNTER_NUM);
 
 		// Requesting open screen ad
-		AdViewSpreadManager.getInstance(this).request(this, MainActivity.SDK_KEY,
-				(RelativeLayout) findViewById(R.id.spreadlayout), this);
+		AdViewSpreadManager.getInstance(this).request(this, MainActivity.SDK_KEY,this,
+				(RelativeLayout) findViewById(R.id.spreadlayout));
 
 	}
 

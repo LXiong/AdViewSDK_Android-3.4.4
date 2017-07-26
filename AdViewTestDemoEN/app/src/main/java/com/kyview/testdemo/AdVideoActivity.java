@@ -94,6 +94,13 @@ public class AdVideoActivity extends Activity implements OnClickListener,
 	}
 
 	@Override
+	public void onAdReady(String s) {
+		Log.i("AdInstlActivity", "onAdReady, pls show ad");
+	}
+
+
+
+	@Override
 	public void onAdPlayEnd(String arg0, Boolean arg1) {
 		Log.i("AdInstlActivity", "onDisplayAd");
 		
