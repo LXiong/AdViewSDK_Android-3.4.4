@@ -99,8 +99,7 @@
 
     <!-- 百度 所需的权限 -->
     <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
-    <!-- smaato 所需的权限 -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
 
     <application
         android:name="android.support.multidex.MultiDexApplication"
